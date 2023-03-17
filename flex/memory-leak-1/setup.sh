@@ -8,7 +8,7 @@ current_dir=$PWD
 mkdir -p $dir_name
 cd $dir_name
 
-download_link=https://raw.githubusercontent.com/nus-apr/saver-benchmark/main/archives/flex.tar.gz
+download_link=https://raw.githubusercontent.com/nus-apr/saver-benchmark/main/archives/$project_name.tar.gz
 
 mkdir tmp
 wget $download_link
