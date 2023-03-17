@@ -2,3511 +2,3511 @@
  {
    "id": 1,
    "subject": "flex",
-   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-1",
    "source": {
       "src-file": "src/buf.c",
       "procedure": "buf_m4_define",
       "line": 175,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/buf.c",
       "procedure": "buf_m4_define",
       "line": 182,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 2,
    "subject": "flex",
-   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-2",
    "source": {
       "src-file": "src/buf.c",
       "procedure": "buf_m4_undefine",
       "line": 196,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/buf.c",
       "procedure": "buf_m4_undefine",
       "line": 203,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 3,
    "subject": "flex",
-   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
    "source": {
       "src-file": "src/dfa.c",
       "procedure": "epsclosure",
       "line": 285,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/dfa.c",
       "procedure": "epsclosure",
       "line": 298,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 4,
    "subject": "flex",
-   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-4",
    "source": {
       "src-file": "src/misc.c",
       "procedure": "action_define",
       "line": 109,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/misc.c",
       "procedure": "action_define",
       "line": 111,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 5,
    "subject": "flex",
-   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
    "source": {
       "src-file": "src/sym.c",
       "procedure": "cclinstal",
       "line": 120,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/sym.c",
       "procedure": "cclinstal",
       "line": 120,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 6,
    "subject": "flex",
-   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
    "source": {
       "src-file": "src/sym.c",
       "procedure": "ndinstal",
       "line": 180,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/sym.c",
       "procedure": "ndinstal",
       "line": 180,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 7,
    "subject": "flex",
-   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
    "source": {
       "src-file": "src/sym.c",
       "procedure": "ndinstal",
       "line": 180,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/sym.c",
       "procedure": "ndinstal",
       "line": 180,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 8,
    "subject": "grub",
-   "bug_id": "double-free-1",
    "bug_type": "Double Free",
+   "bug_id": "double-free-1",
    "source": {
       "src-file": "grub-core/script/lexer.c",
       "procedure": "grub_script_lexer_init",
       "line": 253,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "grub-core/script/lexer.c",
       "procedure": "grub_script_lexer_init",
       "line": 254,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 9,
    "subject": "grub",
-   "bug_id": "double-free-2",
    "bug_type": "Double Free",
+   "bug_id": "double-free-2",
    "source": {
       "src-file": "util/probe.c",
       "procedure": "escape_of_path",
       "line": 68,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "util/grub-probe.c",
       "procedure": "probe",
       "line": 445,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 10,
    "subject": "grub",
-   "bug_id": "double-free-3",
    "bug_type": "Double Free",
+   "bug_id": "double-free-3",
    "source": {
       "src-file": "grub-core/io/lzopio.c",
       "procedure": "test_header",
       "line": 370,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "grub-core/io/lzopio.c",
       "procedure": "test_header",
       "line": 406,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 11,
    "subject": "grub",
-   "bug_id": "double-free-4",
    "bug_type": "Double Free",
+   "bug_id": "double-free-4",
    "source": {
       "src-file": "net/tcp.c",
       "procedure": "grub_net_recv_tcp_packet",
       "line": 921,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "net/tcp.c",
       "procedure": "grub_net_recv_tcp_packet",
       "line": 921,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 12,
    "subject": "grub",
-   "bug_id": "double-free-5",
    "bug_type": "Double Free",
+   "bug_id": "double-free-5",
    "source": {
       "src-file": "grub-core/disk/diskfilter.c",
       "procedure": "free_array",
       "line": 1256,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "grub-core/disk/diskfilter.c",
       "procedure": "free_array",
       "line": 1265,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 13,
    "subject": "grub",
-   "bug_id": "double-free-6",
    "bug_type": "Double Free",
+   "bug_id": "double-free-6",
    "source": {
       "src-file": "grub-core/kern/file.c",
       "procedure": "grub_file_close",
       "line": 190,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "grub-core/kern/file.c",
       "procedure": "grub_file_close",
       "line": 190,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 14,
    "subject": "grub",
-   "bug_id": "use-after-free-10",
    "bug_type": "Use After Free",
-   "source": {
-      "src-file": "grub-core/osdep/devmapper/getroot.c",
-      "procedure": "get_dm_uuid",
-      "line": 118,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "grub-core/osdep/devmapper/getroot.c",
-      "procedure": "get_dm_uuid",
-      "line": 119,
-      "exp": ""
-   }
-},
- {
-   "id": 15,
-   "subject": "grub",
    "bug_id": "use-after-free-1",
-   "bug_type": "Use After Free",
    "source": {
       "src-file": "normal/crypto.c",
       "procedure": "read_crypto_list",
       "line": 150,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "normal/crypto.c",
       "procedure": "read_crypto_list",
       "line": 151,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 16,
+   "id": 15,
    "subject": "grub",
-   "bug_id": "use-after-free-2",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-2",
    "source": {
       "src-file": "bus/usb/usbtrans.c",
       "procedure": "grub_usb_control_msg",
       "line": 205,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "bus/usb/usbtrans.c",
       "procedure": "grub_usb_control_msg",
       "line": 208,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 17,
+   "id": 16,
    "subject": "grub",
-   "bug_id": "use-after-free-3",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-3",
    "source": {
       "src-file": "bus/usb/usbtrans.c",
       "procedure": "grub_usb_bulk_finish_readwrite",
       "line": 314,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "bus/usb/usbtrans.c",
       "procedure": "grub_usb_bulk_finish_readwrite",
       "line": 315,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 18,
+   "id": 17,
    "subject": "grub",
-   "bug_id": "use-after-free-4",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-4",
    "source": {
       "src-file": "loader/i386/xnu.c",
       "procedure": "grub_xnu_devprop_add_property",
       "line": 272,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "loader/i386/xnu.c",
       "procedure": "grub_xnu_devprop_add_property",
       "line": 274,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 19,
+   "id": 18,
    "subject": "grub",
-   "bug_id": "use-after-free-5",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-5",
    "source": {
       "src-file": "disk/scsi.c",
       "procedure": "grub_scsi_open",
       "line": 618,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "disk/scsi.c",
       "procedure": "grub_scsi_open",
       "line": 619,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 20,
+   "id": 19,
    "subject": "grub",
-   "bug_id": "use-after-free-6",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-6",
    "source": {
       "src-file": "commands/search.c",
       "procedure": "try",
       "line": 215,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "commands/search.c",
       "procedure": "try",
       "line": 216,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 20,
+   "subject": "grub",
+   "bug_type": "Use After Free",
+   "bug_id": "use-after-free-7",
+   "source": {
+      "src-file": "grub-core/disk/luks.c",
+      "procedure": "configure_ciphers",
+      "line": 203,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "grub-core/disk/luks.c",
+      "procedure": "configure_ciphers",
+      "line": 204,
+      "exp": null
    }
 },
  {
    "id": 21,
    "subject": "grub",
-   "bug_id": "use-after-free-7",
    "bug_type": "Use After Free",
-   "source": {
-      "src-file": "grub-core/disk/luks.c",
-      "procedure": "configure_ciphers",
-      "line": 203,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "grub-core/disk/luks.c",
-      "procedure": "configure_ciphers",
-      "line": 204,
-      "exp": ""
-   }
-},
- {
-   "id": 22,
-   "subject": "grub",
    "bug_id": "use-after-free-8",
-   "bug_type": "Use After Free",
    "source": {
       "src-file": "util/grub-mkimage.c",
       "procedure": "main",
       "line": 277,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "util/grub-mkimage.c",
       "procedure": "main",
       "line": 291,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 22,
+   "subject": "grub",
+   "bug_type": "Use After Free",
+   "bug_id": "use-after-free-9",
+   "source": {
+      "src-file": "gettext/gettext.c",
+      "procedure": "grub_mofile_open_lang",
+      "line": 358,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "gettext/gettext.c",
+      "procedure": "grub_mofile_open_lang",
+      "line": 364,
+      "exp": null
    }
 },
  {
    "id": 23,
    "subject": "grub",
-   "bug_id": "use-after-free-9",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-10",
    "source": {
-      "src-file": "gettext/gettext.c",
-      "procedure": "grub_mofile_open_lang",
-      "line": 358,
-      "exp": ""
+      "src-file": "grub-core/osdep/devmapper/getroot.c",
+      "procedure": "get_dm_uuid",
+      "line": 118,
+      "exp": null
    },
    "sink": {
-      "src-file": "gettext/gettext.c",
-      "procedure": "grub_mofile_open_lang",
-      "line": 364,
-      "exp": ""
+      "src-file": "grub-core/osdep/devmapper/getroot.c",
+      "procedure": "get_dm_uuid",
+      "line": 119,
+      "exp": null
    }
 },
  {
    "id": 24,
    "subject": "inetutils",
-   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-1",
    "source": {
       "src-file": "ftpd.c",
       "procedure": "delete",
       "line": 1797,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "ftpd.c",
       "procedure": "delete",
       "line": 1797,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 25,
    "subject": "inetutils",
-   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-2",
    "source": {
       "src-file": "ftpd.c",
       "procedure": "makedir",
       "line": 1833,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "ftpd.c",
       "procedure": "makedir",
       "line": 1833,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 26,
    "subject": "inetutils",
-   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
    "source": {
       "src-file": "ftpd.c",
       "procedure": "removedir",
       "line": 1858,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "ftpd.c",
       "procedure": "removedir",
       "line": 1858,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 27,
    "subject": "inetutils",
-   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-4",
    "source": {
       "src-file": "libinetutils/argcv.c",
       "procedure": "argcv_string",
       "line": 175,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "libinetutils/argcv.c",
       "procedure": "argcv_string",
       "line": 175,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 28,
    "subject": "inetutils",
-   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
    "source": {
       "src-file": "libinetutils/argcv.c",
       "procedure": "argcv_string",
       "line": 167,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "libinetutils/argcv.c",
       "procedure": "argcv_string",
       "line": 175,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 29,
    "subject": "inetutils",
-   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
    "source": {
       "src-file": "src/hostname.c",
       "procedure": "get_aliases",
       "line": 256,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/hostname.c",
       "procedure": "get_aliases",
       "line": 273,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 30,
    "subject": "inetutils",
-   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
    "source": {
       "src-file": "src/hostname.c",
       "procedure": "get_ip_addresses",
       "line": 312,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/hostname.c",
       "procedure": "get_ip_addresses",
       "line": 336,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 31,
    "subject": "inetutils",
-   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-8",
    "source": {
       "src-file": "rshd.c",
       "procedure": "getstr",
       "line": 2016,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "rshd.c",
       "procedure": "getstr",
       "line": 2044,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 32,
    "subject": "inetutils",
-   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-9",
    "source": {
       "src-file": "talkd/acl.c",
       "procedure": "open_users_acl",
       "line": 305,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "talkd/acl.c",
       "procedure": "open_users_acl",
       "line": 323,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 33,
    "subject": "lxc",
-   "bug_id": "memory-leak-1",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "do_mkfs_exec_wrapper",
-      "line": 752,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "do_mkfs_exec_wrapper",
-      "line": 758,
-      "exp": ""
-   }
-},
- {
-   "id": 34,
-   "subject": "lxc",
-   "bug_id": "memory-leak-2",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "do_mkfs_exec_wrapper",
-      "line": 752,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "do_mkfs_exec_wrapper",
-      "line": 763,
-      "exp": ""
-   }
-},
- {
-   "id": 35,
-   "subject": "lxc",
-   "bug_id": "memory-leak-3",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "do_rsync",
-      "line": 57,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "do_rsync",
-      "line": 65,
-      "exp": ""
-   }
-},
- {
-   "id": 36,
-   "subject": "lxc",
-   "bug_id": "memory-leak-4",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "lxc_cmd_state_server_callback",
-      "line": 988,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "lxc_cmd_state_server_callback",
-      "line": 1002,
-      "exp": ""
-   }
-},
- {
-   "id": 37,
-   "subject": "lxc",
-   "bug_id": "memory-leak-5",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "lxc_cmd_state_server_callback",
-      "line": 996,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "lxc_cmd_state_server_callback",
-      "line": 1003,
-      "exp": ""
-   }
-},
- {
-   "id": 38,
-   "subject": "lxc",
-   "bug_id": "memory-leak-6",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "lxc_config_define_add",
-      "line": 2520,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "lxc_config_define_add",
-      "line": 2525,
-      "exp": ""
-   }
-},
- {
-   "id": 39,
-   "subject": "lxc",
-   "bug_id": "memory-leak-7",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "get_groupnames",
-      "line": 157,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "get_groupnames",
-      "line": 174,
-      "exp": ""
-   }
-},
- {
-   "id": 40,
-   "subject": "lxc",
-   "bug_id": "memory-leak-8",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/lxc/lxccontainer.c",
-      "procedure": "split_init_cmd",
-      "line": 711,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/lxc/lxccontainer.c",
-      "procedure": "split_init_cmd",
-      "line": 716,
-      "exp": ""
-   }
-},
- {
-   "id": 41,
-   "subject": "lxc",
-   "bug_id": "double-free-1",
    "bug_type": "Double Free",
+   "bug_id": "double-free-1",
    "source": {
       "src-file": "src/lxc/cgmanager.c",
       "procedure": "collect_subsytems",
       "line": 1262,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/cgmanager.c",
       "procedure": "collect_subsytems",
       "line": 1285,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 42,
+   "id": 34,
    "subject": "lxc",
-   "bug_id": "double-free-2",
    "bug_type": "Double Free",
+   "bug_id": "double-free-2",
    "source": {
       "src-file": "src/lxc/attach.c",
       "procedure": "attach_child_main",
       "line": 910,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/attach.c",
       "procedure": "attach_child_main",
       "line": 973,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 43,
+   "id": 35,
    "subject": "lxc",
-   "bug_id": "double-free-3",
    "bug_type": "Double Free",
+   "bug_id": "double-free-3",
    "source": {
       "src-file": "src/lxc/attach.c",
       "procedure": "attach_child_main",
       "line": 984,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/attach.c",
       "procedure": "attach_child_main",
       "line": 1047,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 44,
+   "id": 36,
    "subject": "lxc",
-   "bug_id": "double-free-4",
    "bug_type": "Double Free",
+   "bug_id": "double-free-4",
    "source": {
       "src-file": "src/lxc/conf.c",
       "procedure": "userns_exec_1",
       "line": 4942,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/conf.c",
       "procedure": "userns_exec_1",
       "line": 4944,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 45,
+   "id": 37,
    "subject": "lxc",
-   "bug_id": "double-free-5",
    "bug_type": "Double Free",
+   "bug_id": "double-free-5",
    "source": {
       "src-file": "conf.c",
       "procedure": "lxc_create_tty",
       "line": 3297,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "start.c",
       "procedure": "lxc_init",
       "line": 495,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 46,
+   "id": 38,
    "subject": "lxc",
-   "bug_id": "double-free-6",
    "bug_type": "Double Free",
+   "bug_id": "double-free-6",
    "source": {
       "src-file": "src/lxc/lxc_copy.c",
       "procedure": "set_mnt_entry",
       "line": 346,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/lxc_copy.c",
       "procedure": "do_clone_ephemeral",
       "line": 453,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 39,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-1",
+   "source": {
+      "src-file": "",
+      "procedure": "do_mkfs_exec_wrapper",
+      "line": 752,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "do_mkfs_exec_wrapper",
+      "line": 758,
+      "exp": null
+   }
+},
+ {
+   "id": 40,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-2",
+   "source": {
+      "src-file": "",
+      "procedure": "do_mkfs_exec_wrapper",
+      "line": 752,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "do_mkfs_exec_wrapper",
+      "line": 763,
+      "exp": null
+   }
+},
+ {
+   "id": 41,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
+   "source": {
+      "src-file": "",
+      "procedure": "do_rsync",
+      "line": 57,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "do_rsync",
+      "line": 65,
+      "exp": null
+   }
+},
+ {
+   "id": 42,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-4",
+   "source": {
+      "src-file": "",
+      "procedure": "lxc_cmd_state_server_callback",
+      "line": 988,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "lxc_cmd_state_server_callback",
+      "line": 1002,
+      "exp": null
+   }
+},
+ {
+   "id": 43,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
+   "source": {
+      "src-file": "",
+      "procedure": "lxc_cmd_state_server_callback",
+      "line": 996,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "lxc_cmd_state_server_callback",
+      "line": 1003,
+      "exp": null
+   }
+},
+ {
+   "id": 44,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
+   "source": {
+      "src-file": "",
+      "procedure": "lxc_config_define_add",
+      "line": 2520,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "lxc_config_define_add",
+      "line": 2525,
+      "exp": null
+   }
+},
+ {
+   "id": 45,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
+   "source": {
+      "src-file": "",
+      "procedure": "get_groupnames",
+      "line": 157,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "get_groupnames",
+      "line": 174,
+      "exp": null
+   }
+},
+ {
+   "id": 46,
+   "subject": "lxc",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-8",
+   "source": {
+      "src-file": "src/lxc/lxccontainer.c",
+      "procedure": "split_init_cmd",
+      "line": 711,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/lxc/lxccontainer.c",
+      "procedure": "split_init_cmd",
+      "line": 716,
+      "exp": null
    }
 },
  {
    "id": 47,
    "subject": "lxc",
-   "bug_id": "use-after-free-1",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-1",
    "source": {
       "src-file": "tools/lxc_execute.c",
       "procedure": "main",
       "line": 242,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "tools/lxc_execute.c",
       "procedure": "main",
       "line": 250,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 48,
    "subject": "lxc",
-   "bug_id": "use-after-free-2",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-2",
    "source": {
       "src-file": "lxccontainer.c",
       "procedure": "prepend_lxc_header",
       "line": 1637,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lxccontainer.c",
       "procedure": "prepend_lxc_header",
       "line": 1639,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 49,
    "subject": "lxc",
-   "bug_id": "use-after-free-3",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-3",
    "source": {
       "src-file": "src/lxc/storage/overlay.c",
       "procedure": "ovl_clonepaths",
       "line": 210,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/storage/overlay.c",
       "procedure": "ovl_clonepaths",
       "line": 211,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 50,
    "subject": "lxc",
-   "bug_id": "use-after-free-4",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-4",
    "source": {
       "src-file": "src/lxc/storage/overlay.c",
       "procedure": "ovl_clonepaths",
       "line": 204,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/storage/overlay.c",
       "procedure": "ovl_clonepaths",
       "line": 205,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 51,
    "subject": "lxc",
-   "bug_id": "use-after-free-5",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-5",
    "source": {
       "src-file": "lxccontainer.c",
       "procedure": "do_lxcapi_start",
       "line": 1071,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lxccontainer.c",
       "procedure": "do_lxcapi_start",
       "line": 1072,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 52,
    "subject": "lxc",
-   "bug_id": "use-after-free-6",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-6",
    "source": {
       "src-file": "src/lxc/conf.c",
       "procedure": "lxc_remove_nic",
       "line": 2469,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/conf.c",
       "procedure": "lxc_remove_nic",
       "line": 2466,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 53,
    "subject": "lxc",
-   "bug_id": "use-after-free-7",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-7",
    "source": {
       "src-file": "src/lxc/cgfs.c",
       "procedure": "do_setup_cgroup_limits",
       "line": 1927,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/lxc/cgfs.c",
       "procedure": "do_setup_cgroup_limits",
       "line": 1925,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 54,
    "subject": "p11-kit",
-   "bug_id": "memory-leak-10",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_track_session_inlock",
-      "line": 1602,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_track_session_inlock",
-      "line": 1605,
-      "exp": ""
-   }
-},
- {
-   "id": 55,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-11",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_track_session_inlock",
-      "line": 1599,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_track_session_inlock",
-      "line": 1605,
-      "exp": ""
-   }
-},
- {
-   "id": 56,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-12",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "p11_module_load_inlock_reentrant",
-      "line": 2426,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "p11_module_load_inlock_reentrant",
-      "line": 2433,
-      "exp": ""
-   }
-},
- {
-   "id": 57,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-13",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "p11_module_load_inlock_reentrant",
-      "line": 2426,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "p11_module_load_inlock_reentrant",
-      "line": 2433,
-      "exp": ""
-   }
-},
- {
-   "id": 58,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-14",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "p11_module_load_inlock_reentrant",
-      "line": 2426,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "p11_module_load_inlock_reentrant",
-      "line": 2440,
-      "exp": ""
-   }
-},
- {
-   "id": 59,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-15",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/pin.c",
-      "procedure": "register_callback_unlocked",
-      "line": 181,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/pin.c",
-      "procedure": "register_callback_unlocked",
-      "line": 187,
-      "exp": ""
-   }
-},
- {
-   "id": 60,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-16",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/pin.c",
-      "procedure": "p11_kit_pin_register_callback",
-      "line": 238,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/pin.c",
-      "procedure": "p11_kit_pin_register_callback",
-      "line": 248,
-      "exp": ""
-   }
-},
- {
-   "id": 61,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-17",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/pin.c",
-      "procedure": "p11_kit_pin_new",
-      "line": 549,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/pin.c",
-      "procedure": "p11_kit_pin_new",
-      "line": 553,
-      "exp": ""
-   }
-},
- {
-   "id": 62,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-18",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/proxy.c",
-      "procedure": "proxy_list_slots",
-      "line": 269,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/proxy.c",
-      "procedure": "proxy_list_slots",
-      "line": 282,
-      "exp": ""
-   }
-},
- {
-   "id": 63,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-19",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/proxy.c",
-      "procedure": "proxy_C_OpenSession",
-      "line": 676,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/proxy.c",
-      "procedure": "proxy_C_OpenSession",
-      "line": 683,
-      "exp": ""
-   }
-},
- {
-   "id": 64,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-1",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "common/constants.c",
-      "procedure": "p11_constant_reverse",
-      "line": 674,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "common/constants.c",
-      "procedure": "p11_constant_reverse",
-      "line": 686,
-      "exp": ""
-   }
-},
- {
-   "id": 65,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-20",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/proxy.c",
-      "procedure": "p11_proxy_module_create",
-      "line": 1820,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/proxy.c",
-      "procedure": "p11_proxy_module_create",
-      "line": 1834,
-      "exp": ""
-   }
-},
- {
-   "id": 66,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-21",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/rpc-message.c",
-      "procedure": "p11_rpc_buffer_new_full",
-      "line": 525,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/rpc-message.c",
-      "procedure": "p11_rpc_buffer_new_full",
-      "line": 529,
-      "exp": ""
-   }
-},
- {
-   "id": 67,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-22",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/rpc-transport.c",
-      "procedure": "on_argv_parsed",
-      "line": 1034,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/rpc-transport.c",
-      "procedure": "on_argv_parsed",
-      "line": 1034,
-      "exp": ""
-   }
-},
- {
-   "id": 68,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-23",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/rpc-transport.c",
-      "procedure": "rpc_exec_init",
-      "line": 1045,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/rpc-transport.c",
-      "procedure": "rpc_exec_init",
-      "line": 1053,
-      "exp": ""
-   }
-},
- {
-   "id": 69,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-24",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/uri.c",
-      "procedure": "parse_vendor_query",
-      "line": 1584,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/uri.c",
-      "procedure": "parse_vendor_query",
-      "line": 1596,
-      "exp": ""
-   }
-},
- {
-   "id": 70,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-25",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_defs_load",
-      "line": 75,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_defs_load",
-      "line": 84,
-      "exp": ""
-   }
-},
- {
-   "id": 71,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-26",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_defs_load",
-      "line": 75,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_defs_load",
-      "line": 88,
-      "exp": ""
-   }
-},
- {
-   "id": 72,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-27",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_encode",
-      "line": 179,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_encode",
-      "line": 186,
-      "exp": ""
-   }
-},
- {
-   "id": 73,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-28",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_read",
-      "line": 215,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_read",
-      "line": 219,
-      "exp": ""
-   }
-},
- {
-   "id": 74,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-29",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_cache_take",
-      "line": 345,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/asn1.c",
-      "procedure": "p11_asn1_cache_take",
-      "line": 356,
-      "exp": ""
-   }
-},
- {
-   "id": 75,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-2",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "common/constants.c",
-      "procedure": "p11_constant_reverse",
-      "line": 674,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "common/constants.c",
-      "procedure": "p11_constant_reverse",
-      "line": 690,
-      "exp": ""
-   }
-},
- {
-   "id": 76,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-30",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/dump.c",
-      "procedure": "dump_iterate",
-      "line": 90,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/dump.c",
-      "procedure": "dump_iterate",
-      "line": 92,
-      "exp": ""
-   }
-},
- {
-   "id": 77,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-31",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/extract-openssl.c",
-      "procedure": "symlink_for_subject_hash",
-      "line": 543,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/extract-openssl.c",
-      "procedure": "symlink_for_subject_hash",
-      "line": 543,
-      "exp": ""
-   }
-},
- {
-   "id": 78,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-32",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/index.c",
-      "procedure": "index_build",
-      "line": 367,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/index.c",
-      "procedure": "index_build",
-      "line": 374,
-      "exp": ""
-   }
-},
- {
-   "id": 79,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-33",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/index.c",
-      "procedure": "index_notify",
-      "line": 440,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/index.c",
-      "procedure": "index_notify",
-      "line": 445,
-      "exp": ""
-   }
-},
- {
-   "id": 80,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-34",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/index.c",
-      "procedure": "p11_index_take",
-      "line": 506,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/index.c",
-      "procedure": "p11_index_take",
-      "line": 518,
-      "exp": ""
-   }
-},
- {
-   "id": 81,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-35",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/index.c",
-      "procedure": "p11_index_take",
-      "line": 506,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/index.c",
-      "procedure": "p11_index_take",
-      "line": 520,
-      "exp": ""
-   }
-},
- {
-   "id": 82,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-36",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/index.c",
-      "procedure": "p11_index_take",
-      "line": 506,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/index.c",
-      "procedure": "p11_index_take",
-      "line": 528,
-      "exp": ""
-   }
-},
- {
-   "id": 83,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-37",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/parser.c",
-      "procedure": "p11_parser_new",
-      "line": 659,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/parser.c",
-      "procedure": "p11_parser_new",
-      "line": 663,
-      "exp": ""
-   }
-},
- {
-   "id": 84,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-38",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/parser.c",
-      "procedure": "p11_parser_formats",
-      "line": 692,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/parser.c",
-      "procedure": "p11_parser_formats",
-      "line": 701,
-      "exp": ""
-   }
-},
- {
-   "id": 85,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-39",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/save.c",
-      "procedure": "cleanup_directory",
-      "line": 555,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/save.c",
-      "procedure": "cleanup_directory",
-      "line": 562,
-      "exp": ""
-   }
-},
- {
-   "id": 86,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-3",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/conf.c",
-      "procedure": "_p11_conf_load_modules",
-      "line": 465,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/conf.c",
-      "procedure": "_p11_conf_load_modules",
-      "line": 478,
-      "exp": ""
-   }
-},
- {
-   "id": 87,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-40",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/token.c",
-      "procedure": "loader_load_path",
-      "line": 312,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/token.c",
-      "procedure": "loader_load_path",
-      "line": 317,
-      "exp": ""
-   }
-},
- {
-   "id": 88,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-41",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/token.c",
-      "procedure": "p11_token_new",
-      "line": 828,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/token.c",
-      "procedure": "p11_token_new",
-      "line": 833,
-      "exp": ""
-   }
-},
- {
-   "id": 89,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-42",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "trust/token.c",
-      "procedure": "p11_token_new",
-      "line": 831,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "trust/token.c",
-      "procedure": "p11_token_new",
-      "line": 850,
-      "exp": ""
-   }
-},
- {
-   "id": 90,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-4",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/filter.c",
-      "procedure": "p11_filter_allow_token",
-      "line": 408,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/filter.c",
-      "procedure": "p11_filter_allow_token",
-      "line": 411,
-      "exp": ""
-   }
-},
- {
-   "id": 91,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-5",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/filter.c",
-      "procedure": "p11_filter_deny_token",
-      "line": 428,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/filter.c",
-      "procedure": "p11_filter_deny_token",
-      "line": 431,
-      "exp": ""
-   }
-},
- {
-   "id": 92,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-6",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/iter.c",
-      "procedure": "p11_kit_iter_new",
-      "line": 156,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/iter.c",
-      "procedure": "p11_kit_iter_new",
-      "line": 161,
-      "exp": ""
-   }
-},
- {
-   "id": 93,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-7",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "setup_module_for_remote_inlock",
-      "line": 467,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "setup_module_for_remote_inlock",
-      "line": 481,
-      "exp": ""
-   }
-},
- {
-   "id": 94,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-8",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_C_Initialize",
-      "line": 1568,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_C_Initialize",
-      "line": 1581,
-      "exp": ""
-   }
-},
- {
-   "id": 95,
-   "subject": "p11-kit",
-   "bug_id": "memory-leak-9",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_track_session_inlock",
-      "line": 1599,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "p11-kit/modules.c",
-      "procedure": "managed_track_session_inlock",
-      "line": 1603,
-      "exp": ""
-   }
-},
- {
-   "id": 96,
-   "subject": "p11-kit",
-   "bug_id": "double-free-1",
    "bug_type": "Double Free",
+   "bug_id": "double-free-1",
    "source": {
       "src-file": "trust/extract.c",
       "procedure": "p11_trust_extract_compat",
       "line": 305,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "trust/extract.c",
       "procedure": "p11_trust_extract_compat",
       "line": 319,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 97,
+   "id": 55,
    "subject": "p11-kit",
-   "bug_id": "double-free-2",
    "bug_type": "Double Free",
+   "bug_id": "double-free-2",
    "source": {
       "src-file": "p11-kit/server.c",
       "procedure": "main",
       "line": 665,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "p11-kit/server.c",
       "procedure": "main",
       "line": 679,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 56,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-1",
+   "source": {
+      "src-file": "common/constants.c",
+      "procedure": "p11_constant_reverse",
+      "line": 674,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "common/constants.c",
+      "procedure": "p11_constant_reverse",
+      "line": 686,
+      "exp": null
+   }
+},
+ {
+   "id": 57,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-2",
+   "source": {
+      "src-file": "common/constants.c",
+      "procedure": "p11_constant_reverse",
+      "line": 674,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "common/constants.c",
+      "procedure": "p11_constant_reverse",
+      "line": 690,
+      "exp": null
+   }
+},
+ {
+   "id": 58,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
+   "source": {
+      "src-file": "p11-kit/conf.c",
+      "procedure": "_p11_conf_load_modules",
+      "line": 465,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/conf.c",
+      "procedure": "_p11_conf_load_modules",
+      "line": 478,
+      "exp": null
+   }
+},
+ {
+   "id": 59,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-4",
+   "source": {
+      "src-file": "p11-kit/filter.c",
+      "procedure": "p11_filter_allow_token",
+      "line": 408,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/filter.c",
+      "procedure": "p11_filter_allow_token",
+      "line": 411,
+      "exp": null
+   }
+},
+ {
+   "id": 60,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
+   "source": {
+      "src-file": "p11-kit/filter.c",
+      "procedure": "p11_filter_deny_token",
+      "line": 428,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/filter.c",
+      "procedure": "p11_filter_deny_token",
+      "line": 431,
+      "exp": null
+   }
+},
+ {
+   "id": 61,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
+   "source": {
+      "src-file": "p11-kit/iter.c",
+      "procedure": "p11_kit_iter_new",
+      "line": 156,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/iter.c",
+      "procedure": "p11_kit_iter_new",
+      "line": 161,
+      "exp": null
+   }
+},
+ {
+   "id": 62,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "setup_module_for_remote_inlock",
+      "line": 467,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "setup_module_for_remote_inlock",
+      "line": 481,
+      "exp": null
+   }
+},
+ {
+   "id": 63,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-8",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_C_Initialize",
+      "line": 1568,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_C_Initialize",
+      "line": 1581,
+      "exp": null
+   }
+},
+ {
+   "id": 64,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-9",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_track_session_inlock",
+      "line": 1599,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_track_session_inlock",
+      "line": 1603,
+      "exp": null
+   }
+},
+ {
+   "id": 65,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-10",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_track_session_inlock",
+      "line": 1602,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_track_session_inlock",
+      "line": 1605,
+      "exp": null
+   }
+},
+ {
+   "id": 66,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-11",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_track_session_inlock",
+      "line": 1599,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "managed_track_session_inlock",
+      "line": 1605,
+      "exp": null
+   }
+},
+ {
+   "id": 67,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-12",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "p11_module_load_inlock_reentrant",
+      "line": 2426,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "p11_module_load_inlock_reentrant",
+      "line": 2433,
+      "exp": null
+   }
+},
+ {
+   "id": 68,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-13",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "p11_module_load_inlock_reentrant",
+      "line": 2426,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "p11_module_load_inlock_reentrant",
+      "line": 2433,
+      "exp": null
+   }
+},
+ {
+   "id": 69,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-14",
+   "source": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "p11_module_load_inlock_reentrant",
+      "line": 2426,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/modules.c",
+      "procedure": "p11_module_load_inlock_reentrant",
+      "line": 2440,
+      "exp": null
+   }
+},
+ {
+   "id": 70,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-15",
+   "source": {
+      "src-file": "p11-kit/pin.c",
+      "procedure": "register_callback_unlocked",
+      "line": 181,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/pin.c",
+      "procedure": "register_callback_unlocked",
+      "line": 187,
+      "exp": null
+   }
+},
+ {
+   "id": 71,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-16",
+   "source": {
+      "src-file": "p11-kit/pin.c",
+      "procedure": "p11_kit_pin_register_callback",
+      "line": 238,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/pin.c",
+      "procedure": "p11_kit_pin_register_callback",
+      "line": 248,
+      "exp": null
+   }
+},
+ {
+   "id": 72,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-17",
+   "source": {
+      "src-file": "p11-kit/pin.c",
+      "procedure": "p11_kit_pin_new",
+      "line": 549,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/pin.c",
+      "procedure": "p11_kit_pin_new",
+      "line": 553,
+      "exp": null
+   }
+},
+ {
+   "id": 73,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-18",
+   "source": {
+      "src-file": "p11-kit/proxy.c",
+      "procedure": "proxy_list_slots",
+      "line": 269,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/proxy.c",
+      "procedure": "proxy_list_slots",
+      "line": 282,
+      "exp": null
+   }
+},
+ {
+   "id": 74,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-19",
+   "source": {
+      "src-file": "p11-kit/proxy.c",
+      "procedure": "proxy_C_OpenSession",
+      "line": 676,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/proxy.c",
+      "procedure": "proxy_C_OpenSession",
+      "line": 683,
+      "exp": null
+   }
+},
+ {
+   "id": 75,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-20",
+   "source": {
+      "src-file": "p11-kit/proxy.c",
+      "procedure": "p11_proxy_module_create",
+      "line": 1820,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/proxy.c",
+      "procedure": "p11_proxy_module_create",
+      "line": 1834,
+      "exp": null
+   }
+},
+ {
+   "id": 76,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-21",
+   "source": {
+      "src-file": "p11-kit/rpc-message.c",
+      "procedure": "p11_rpc_buffer_new_full",
+      "line": 525,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/rpc-message.c",
+      "procedure": "p11_rpc_buffer_new_full",
+      "line": 529,
+      "exp": null
+   }
+},
+ {
+   "id": 77,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-22",
+   "source": {
+      "src-file": "p11-kit/rpc-transport.c",
+      "procedure": "on_argv_parsed",
+      "line": 1034,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/rpc-transport.c",
+      "procedure": "on_argv_parsed",
+      "line": 1034,
+      "exp": null
+   }
+},
+ {
+   "id": 78,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-23",
+   "source": {
+      "src-file": "p11-kit/rpc-transport.c",
+      "procedure": "rpc_exec_init",
+      "line": 1045,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/rpc-transport.c",
+      "procedure": "rpc_exec_init",
+      "line": 1053,
+      "exp": null
+   }
+},
+ {
+   "id": 79,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-24",
+   "source": {
+      "src-file": "p11-kit/uri.c",
+      "procedure": "parse_vendor_query",
+      "line": 1584,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "p11-kit/uri.c",
+      "procedure": "parse_vendor_query",
+      "line": 1596,
+      "exp": null
+   }
+},
+ {
+   "id": 80,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-25",
+   "source": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_defs_load",
+      "line": 75,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_defs_load",
+      "line": 84,
+      "exp": null
+   }
+},
+ {
+   "id": 81,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-26",
+   "source": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_defs_load",
+      "line": 75,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_defs_load",
+      "line": 88,
+      "exp": null
+   }
+},
+ {
+   "id": 82,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-27",
+   "source": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_encode",
+      "line": 179,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_encode",
+      "line": 186,
+      "exp": null
+   }
+},
+ {
+   "id": 83,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-28",
+   "source": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_read",
+      "line": 215,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_read",
+      "line": 219,
+      "exp": null
+   }
+},
+ {
+   "id": 84,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-29",
+   "source": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_cache_take",
+      "line": 345,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/asn1.c",
+      "procedure": "p11_asn1_cache_take",
+      "line": 356,
+      "exp": null
+   }
+},
+ {
+   "id": 85,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-30",
+   "source": {
+      "src-file": "trust/dump.c",
+      "procedure": "dump_iterate",
+      "line": 90,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/dump.c",
+      "procedure": "dump_iterate",
+      "line": 92,
+      "exp": null
+   }
+},
+ {
+   "id": 86,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-31",
+   "source": {
+      "src-file": "trust/extract-openssl.c",
+      "procedure": "symlink_for_subject_hash",
+      "line": 543,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/extract-openssl.c",
+      "procedure": "symlink_for_subject_hash",
+      "line": 543,
+      "exp": null
+   }
+},
+ {
+   "id": 87,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-32",
+   "source": {
+      "src-file": "trust/index.c",
+      "procedure": "index_build",
+      "line": 367,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/index.c",
+      "procedure": "index_build",
+      "line": 374,
+      "exp": null
+   }
+},
+ {
+   "id": 88,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-33",
+   "source": {
+      "src-file": "trust/index.c",
+      "procedure": "index_notify",
+      "line": 440,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/index.c",
+      "procedure": "index_notify",
+      "line": 445,
+      "exp": null
+   }
+},
+ {
+   "id": 89,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-34",
+   "source": {
+      "src-file": "trust/index.c",
+      "procedure": "p11_index_take",
+      "line": 506,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/index.c",
+      "procedure": "p11_index_take",
+      "line": 518,
+      "exp": null
+   }
+},
+ {
+   "id": 90,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-35",
+   "source": {
+      "src-file": "trust/index.c",
+      "procedure": "p11_index_take",
+      "line": 506,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/index.c",
+      "procedure": "p11_index_take",
+      "line": 520,
+      "exp": null
+   }
+},
+ {
+   "id": 91,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-36",
+   "source": {
+      "src-file": "trust/index.c",
+      "procedure": "p11_index_take",
+      "line": 506,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/index.c",
+      "procedure": "p11_index_take",
+      "line": 528,
+      "exp": null
+   }
+},
+ {
+   "id": 92,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-37",
+   "source": {
+      "src-file": "trust/parser.c",
+      "procedure": "p11_parser_new",
+      "line": 659,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/parser.c",
+      "procedure": "p11_parser_new",
+      "line": 663,
+      "exp": null
+   }
+},
+ {
+   "id": 93,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-38",
+   "source": {
+      "src-file": "trust/parser.c",
+      "procedure": "p11_parser_formats",
+      "line": 692,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/parser.c",
+      "procedure": "p11_parser_formats",
+      "line": 701,
+      "exp": null
+   }
+},
+ {
+   "id": 94,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-39",
+   "source": {
+      "src-file": "trust/save.c",
+      "procedure": "cleanup_directory",
+      "line": 555,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/save.c",
+      "procedure": "cleanup_directory",
+      "line": 562,
+      "exp": null
+   }
+},
+ {
+   "id": 95,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-40",
+   "source": {
+      "src-file": "trust/token.c",
+      "procedure": "loader_load_path",
+      "line": 312,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/token.c",
+      "procedure": "loader_load_path",
+      "line": 317,
+      "exp": null
+   }
+},
+ {
+   "id": 96,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-41",
+   "source": {
+      "src-file": "trust/token.c",
+      "procedure": "p11_token_new",
+      "line": 828,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/token.c",
+      "procedure": "p11_token_new",
+      "line": 833,
+      "exp": null
+   }
+},
+ {
+   "id": 97,
+   "subject": "p11-kit",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-42",
+   "source": {
+      "src-file": "trust/token.c",
+      "procedure": "p11_token_new",
+      "line": 831,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "trust/token.c",
+      "procedure": "p11_token_new",
+      "line": 850,
+      "exp": null
    }
 },
  {
    "id": 98,
    "subject": "p11-kit",
-   "bug_id": "use-after-free-1",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-1",
    "source": {
       "src-file": "p11-kit/server.c",
       "procedure": "main",
       "line": 658,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "p11-kit/server.c",
       "procedure": "main",
       "line": 680,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 99,
    "subject": "p11-kit",
-   "bug_id": "use-after-free-2",
    "bug_type": "Use After Free",
+   "bug_id": "use-after-free-2",
    "source": {
       "src-file": "p11-kit/modules.c",
       "procedure": "load_module_from_file_inlock",
       "line": 368,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "p11-kit/modules.c",
       "procedure": "load_module_from_file_inlock",
       "line": 381,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 100,
    "subject": "rappel",
-   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-1",
    "source": {
       "src-file": "pipe.c",
       "procedure": "_read_bytecode",
       "line": 52,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "pipe.c",
       "procedure": "_read_bytecode",
       "line": 65,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 101,
    "subject": "recutils",
-   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/rec-fex.c",
-      "procedure": "rec_fex_parse_str_simple",
-      "line": 544,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/rec-fex.c",
-      "procedure": "rec_fex_parse_str_simple",
-      "line": 545,
-      "exp": ""
-   }
-},
- {
-   "id": 102,
-   "subject": "recutils",
-   "bug_id": "memory-leak-11",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/rec-fex.c",
-      "procedure": "rec_fex_parse_str_subscripts",
-      "line": 665,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/rec-fex.c",
-      "procedure": "rec_fex_parse_str_subscripts",
-      "line": 666,
-      "exp": ""
-   }
-},
- {
-   "id": 103,
-   "subject": "recutils",
-   "bug_id": "memory-leak-12",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/rec-int.c",
-      "procedure": "rec_int_collect_field_list",
-      "line": 351,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/rec-int.c",
-      "procedure": "rec_int_collect_field_list",
-      "line": 354,
-      "exp": ""
-   }
-},
- {
-   "id": 104,
-   "subject": "recutils",
-   "bug_id": "memory-leak-13",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/rec-rset.c",
-      "procedure": "rec_rset_group",
-      "line": 763,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/rec-rset.c",
-      "procedure": "rec_rset_group",
-      "line": 805,
-      "exp": ""
-   }
-},
- {
-   "id": 105,
-   "subject": "recutils",
-   "bug_id": "memory-leak-14",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/rec-rset.c",
-      "procedure": "rec_rset_merge_records",
-      "line": 1760,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/rec-rset.c",
-      "procedure": "rec_rset_merge_records",
-      "line": 1758,
-      "exp": ""
-   }
-},
- {
-   "id": 106,
-   "subject": "recutils",
-   "bug_id": "memory-leak-15",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "utils/csv2rec.c",
-      "procedure": "parse_args",
-      "line": 147,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "utils/csv2rec.c",
-      "procedure": "parse_args",
-      "line": 147,
-      "exp": ""
-   }
-},
- {
-   "id": 107,
-   "subject": "recutils",
-   "bug_id": "memory-leak-16",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "utils/csv2rec.c",
-      "procedure": "field_cb",
-      "line": 204,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "utils/csv2rec.c",
-      "procedure": "field_cb",
-      "line": 247,
-      "exp": ""
-   }
-},
- {
-   "id": 108,
-   "subject": "recutils",
-   "bug_id": "memory-leak-17",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "utils/recfmt.c",
-      "procedure": "recfmt_get_subst",
-      "line": 161,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "utils/recfmt.c",
-      "procedure": "recfmt_get_subst",
-      "line": 173,
-      "exp": ""
-   }
-},
- {
-   "id": 109,
-   "subject": "recutils",
-   "bug_id": "memory-leak-18",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_init",
-      "line": 77,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_init",
-      "line": 77,
-      "exp": ""
-   }
-},
- {
-   "id": 110,
-   "subject": "recutils",
-   "bug_id": "memory-leak-19",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_parse_db_from_file",
-      "line": 245,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_parse_db_from_file",
-      "line": 264,
-      "exp": ""
-   }
-},
- {
-   "id": 111,
-   "subject": "recutils",
    "bug_id": "memory-leak-1",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/malloca.c",
       "procedure": "mmalloca",
       "line": 52,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lib/malloca.c",
       "procedure": "mmalloca",
       "line": 65,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 112,
+   "id": 102,
    "subject": "recutils",
-   "bug_id": "memory-leak-20",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_write_db_to_file",
-      "line": 422,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_write_db_to_file",
-      "line": 447,
-      "exp": ""
-   }
-},
- {
-   "id": 113,
-   "subject": "recutils",
-   "bug_id": "memory-leak-21",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_check_integrity",
-      "line": 476,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "utils/recutl.c",
-      "procedure": "recutl_check_integrity",
-      "line": 492,
-      "exp": ""
-   }
-},
- {
-   "id": 114,
-   "subject": "recutils",
    "bug_id": "memory-leak-2",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/regexec.c",
       "procedure": "push_fail_stack",
       "line": 1350,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lib/regexec.c",
       "procedure": "push_fail_stack",
       "line": 1354,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 115,
+   "id": 103,
    "subject": "recutils",
-   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
    "source": {
       "src-file": "lib/regexec.c",
       "procedure": "set_regs",
       "line": 1397,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lib/regexec.c",
       "procedure": "set_regs",
       "line": 1414,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 116,
+   "id": 104,
    "subject": "recutils",
-   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-4",
    "source": {
       "src-file": "lib/regexec.c",
       "procedure": "sift_states_backward",
       "line": 1585,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lib/regexec.c",
       "procedure": "sift_states_backward",
       "line": 1588,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 117,
+   "id": 105,
    "subject": "recutils",
-   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
    "source": {
       "src-file": "lib/regexec.c",
       "procedure": "check_arrival_expand_ecl",
       "line": 3107,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lib/regexec.c",
       "procedure": "check_arrival_expand_ecl",
       "line": 3121,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 118,
+   "id": 106,
    "subject": "recutils",
-   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
    "source": {
       "src-file": "lib/regexec.c",
       "procedure": "check_arrival_expand_ecl",
       "line": 3107,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lib/regexec.c",
       "procedure": "check_arrival_expand_ecl",
       "line": 3132,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 119,
+   "id": 107,
    "subject": "recutils",
-   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
    "source": {
       "src-file": "lib/regexec.c",
       "procedure": "expand_bkref_cache",
       "line": 3229,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "lib/regexec.c",
       "procedure": "expand_bkref_cache",
       "line": 3230,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 120,
+   "id": 108,
    "subject": "recutils",
-   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-8",
    "source": {
       "src-file": "src/rec-crypt.c",
       "procedure": "rec_encrypt",
       "line": 99,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/rec-crypt.c",
       "procedure": "rec_encrypt",
       "line": 115,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 121,
+   "id": 109,
    "subject": "recutils",
-   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-9",
    "source": {
       "src-file": "src/rec-db.c",
       "procedure": "rec_db_merge_records",
       "line": 1004,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/rec-db.c",
       "procedure": "rec_db_merge_records",
       "line": 1018,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 110,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-10",
+   "source": {
+      "src-file": "src/rec-fex.c",
+      "procedure": "rec_fex_parse_str_simple",
+      "line": 544,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/rec-fex.c",
+      "procedure": "rec_fex_parse_str_simple",
+      "line": 545,
+      "exp": null
+   }
+},
+ {
+   "id": 111,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-11",
+   "source": {
+      "src-file": "src/rec-fex.c",
+      "procedure": "rec_fex_parse_str_subscripts",
+      "line": 665,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/rec-fex.c",
+      "procedure": "rec_fex_parse_str_subscripts",
+      "line": 666,
+      "exp": null
+   }
+},
+ {
+   "id": 112,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-12",
+   "source": {
+      "src-file": "src/rec-int.c",
+      "procedure": "rec_int_collect_field_list",
+      "line": 351,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/rec-int.c",
+      "procedure": "rec_int_collect_field_list",
+      "line": 354,
+      "exp": null
+   }
+},
+ {
+   "id": 113,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-13",
+   "source": {
+      "src-file": "src/rec-rset.c",
+      "procedure": "rec_rset_group",
+      "line": 763,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/rec-rset.c",
+      "procedure": "rec_rset_group",
+      "line": 805,
+      "exp": null
+   }
+},
+ {
+   "id": 114,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-14",
+   "source": {
+      "src-file": "src/rec-rset.c",
+      "procedure": "rec_rset_merge_records",
+      "line": 1760,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/rec-rset.c",
+      "procedure": "rec_rset_merge_records",
+      "line": 1758,
+      "exp": null
+   }
+},
+ {
+   "id": 115,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-15",
+   "source": {
+      "src-file": "utils/csv2rec.c",
+      "procedure": "parse_args",
+      "line": 147,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "utils/csv2rec.c",
+      "procedure": "parse_args",
+      "line": 147,
+      "exp": null
+   }
+},
+ {
+   "id": 116,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-16",
+   "source": {
+      "src-file": "utils/csv2rec.c",
+      "procedure": "field_cb",
+      "line": 204,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "utils/csv2rec.c",
+      "procedure": "field_cb",
+      "line": 247,
+      "exp": null
+   }
+},
+ {
+   "id": 117,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-17",
+   "source": {
+      "src-file": "utils/recfmt.c",
+      "procedure": "recfmt_get_subst",
+      "line": 161,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "utils/recfmt.c",
+      "procedure": "recfmt_get_subst",
+      "line": 173,
+      "exp": null
+   }
+},
+ {
+   "id": 118,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-18",
+   "source": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_init",
+      "line": 77,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_init",
+      "line": 77,
+      "exp": null
+   }
+},
+ {
+   "id": 119,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-19",
+   "source": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_parse_db_from_file",
+      "line": 245,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_parse_db_from_file",
+      "line": 264,
+      "exp": null
+   }
+},
+ {
+   "id": 120,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-20",
+   "source": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_write_db_to_file",
+      "line": 422,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_write_db_to_file",
+      "line": 447,
+      "exp": null
+   }
+},
+ {
+   "id": 121,
+   "subject": "recutils",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-21",
+   "source": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_check_integrity",
+      "line": 476,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "utils/recutl.c",
+      "procedure": "recutl_check_integrity",
+      "line": 492,
+      "exp": null
    }
 },
  {
    "id": 122,
    "subject": "snort",
-   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
-      "procedure": "direct_connect_validate",
-      "line": 136,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
-      "procedure": "direct_connect_validate",
-      "line": 147,
-      "exp": ""
-   }
-},
- {
-   "id": 123,
-   "subject": "snort",
-   "bug_id": "memory-leak-11",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
-      "procedure": "direct_connect_validate",
-      "line": 136,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
-      "procedure": "direct_connect_validate",
-      "line": 149,
-      "exp": ""
-   }
-},
- {
-   "id": 124,
-   "subject": "snort",
-   "bug_id": "memory-leak-12",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
-      "procedure": "telnet_validate",
-      "line": 123,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
-      "procedure": "telnet_validate",
-      "line": 133,
-      "exp": ""
-   }
-},
- {
-   "id": 125,
-   "subject": "snort",
-   "bug_id": "memory-leak-13",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
-      "procedure": "telnet_validate",
-      "line": 123,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
-      "procedure": "telnet_validate",
-      "line": 137,
-      "exp": ""
-   }
-},
- {
-   "id": 126,
-   "subject": "snort",
-   "bug_id": "memory-leak-14",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
-      "procedure": "telnet_validate",
-      "line": 123,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
-      "procedure": "telnet_validate",
-      "line": 139,
-      "exp": ""
-   }
-},
- {
-   "id": 127,
-   "subject": "snort",
-   "bug_id": "memory-leak-15",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_cl.c",
-      "procedure": "DCE2_ClInsertActTracker",
-      "line": 447,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_cl.c",
-      "procedure": "DCE2_ClInsertActTracker",
-      "line": 472,
-      "exp": ""
-   }
-},
- {
-   "id": 128,
-   "subject": "snort",
-   "bug_id": "memory-leak-16",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_config.c",
-      "procedure": "DCE2_ServerConfigure",
-      "line": 1386,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_config.c",
-      "procedure": "DCE2_ServerConfigure",
-      "line": 1449,
-      "exp": ""
-   }
-},
- {
-   "id": 129,
-   "subject": "snort",
-   "bug_id": "memory-leak-17",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/ftptelnet/spp_ftptelnet.c",
-      "procedure": "_FtpTelnetReload",
-      "line": 535,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/ftptelnet/spp_ftptelnet.c",
-      "procedure": "_FtpTelnetReload",
-      "line": 554,
-      "exp": ""
-   }
-},
- {
-   "id": 130,
-   "subject": "snort",
-   "bug_id": "memory-leak-18",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
-      "procedure": "SDFInit",
-      "line": 170,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
-      "procedure": "SDFInit",
-      "line": 171,
-      "exp": ""
-   }
-},
- {
-   "id": 131,
-   "subject": "snort",
-   "bug_id": "memory-leak-19",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
-      "procedure": "SDFReload",
-      "line": 896,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
-      "procedure": "SDFReload",
-      "line": 897,
-      "exp": ""
-   }
-},
- {
-   "id": 132,
-   "subject": "snort",
    "bug_id": "memory-leak-1",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_appid.c",
       "procedure": "AppIdInit",
       "line": 213,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/detection-plugins/sp_appid.c",
       "procedure": "AppIdInit",
       "line": 223,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 133,
+   "id": 123,
    "subject": "snort",
-   "bug_id": "memory-leak-20",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/event_wrapper.c",
-      "procedure": "GenerateSnortEventRtn",
-      "line": 61,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/event_wrapper.c",
-      "procedure": "GenerateSnortEventRtn",
-      "line": 66,
-      "exp": ""
-   }
-},
- {
-   "id": 134,
-   "subject": "snort",
-   "bug_id": "memory-leak-21",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/file-process/file_service.c",
-      "procedure": "create_file_context",
-      "line": 413,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/file-process/file_service.c",
-      "procedure": "create_file_context",
-      "line": 413,
-      "exp": ""
-   }
-},
- {
-   "id": 135,
-   "subject": "snort",
-   "bug_id": "memory-leak-22",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/file-process/libs/file_identifier.c",
-      "procedure": "sort_magics",
-      "line": 220,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/file-process/libs/file_identifier.c",
-      "procedure": "sort_magics",
-      "line": 220,
-      "exp": ""
-   }
-},
- {
-   "id": 136,
-   "subject": "snort",
-   "bug_id": "memory-leak-23",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/fpcreate.c",
-      "procedure": "ServiceMapAddOtnRaw",
-      "line": 379,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/fpcreate.c",
-      "procedure": "ServiceMapAddOtnRaw",
-      "line": 379,
-      "exp": ""
-   }
-},
- {
-   "id": 137,
-   "subject": "snort",
-   "bug_id": "memory-leak-24",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/fpcreate.c",
-      "procedure": "ServiceMapAddOtnRaw",
-      "line": 364,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/fpcreate.c",
-      "procedure": "ServiceMapAddOtnRaw",
-      "line": 379,
-      "exp": ""
-   }
-},
- {
-   "id": 138,
-   "subject": "snort",
-   "bug_id": "memory-leak-25",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/fpcreate.c",
-      "procedure": "DynamicFpContentsToPmdList",
-      "line": 1146,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/fpcreate.c",
-      "procedure": "DynamicFpContentsToPmdList",
-      "line": 1155,
-      "exp": ""
-   }
-},
- {
-   "id": 139,
-   "subject": "snort",
-   "bug_id": "memory-leak-26",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/fpdetect.c",
-      "procedure": "CreateOtnForPolicy",
-      "line": 1739,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/fpdetect.c",
-      "procedure": "CreateOtnForPolicy",
-      "line": 1752,
-      "exp": ""
-   }
-},
- {
-   "id": 140,
-   "subject": "snort",
-   "bug_id": "memory-leak-27",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/fpdetect.c",
-      "procedure": "GetOtnForPolicy",
-      "line": 1793,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/fpdetect.c",
-      "procedure": "GetOtnForPolicy",
-      "line": 1795,
-      "exp": ""
-   }
-},
- {
-   "id": 141,
-   "subject": "snort",
-   "bug_id": "memory-leak-28",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/preprocessors/Stream6/snort_stream_tcp.c",
-      "procedure": "registerPortForReassembly",
-      "line": 11924,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/preprocessors/Stream6/snort_stream_tcp.c",
-      "procedure": "registerPortForReassembly",
-      "line": 11927,
-      "exp": ""
-   }
-},
- {
-   "id": 142,
-   "subject": "snort",
-   "bug_id": "memory-leak-29",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/ipobj.c",
-      "procedure": "ipset_add",
-      "line": 123,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/ipobj.c",
-      "procedure": "ipset_add",
-      "line": 130,
-      "exp": ""
-   }
-},
- {
-   "id": 143,
-   "subject": "snort",
    "bug_id": "memory-leak-2",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_file_type.c",
       "procedure": "FileType_Init",
       "line": 198,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/detection-plugins/sp_file_type.c",
       "procedure": "FileType_Init",
       "line": 200,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 144,
+   "id": 124,
    "subject": "snort",
-   "bug_id": "memory-leak-30",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/ipobj.c",
-      "procedure": "ipset_add",
-      "line": 123,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/ipobj.c",
-      "procedure": "ipset_add",
-      "line": 131,
-      "exp": ""
-   }
-},
- {
-   "id": 145,
-   "subject": "snort",
-   "bug_id": "memory-leak-31",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/ipobj.c",
-      "procedure": "portset_add",
-      "line": 224,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/ipobj.c",
-      "procedure": "portset_add",
-      "line": 230,
-      "exp": ""
-   }
-},
- {
-   "id": 146,
-   "subject": "snort",
-   "bug_id": "memory-leak-32",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfPolicy.c",
-      "procedure": "sfNetworkAddBinding",
-      "line": 417,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfPolicy.c",
-      "procedure": "sfNetworkAddBinding",
-      "line": 440,
-      "exp": ""
-   }
-},
- {
-   "id": 147,
-   "subject": "snort",
-   "bug_id": "memory-leak-33",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sf_ipvar.c",
-      "procedure": "_sfvar_deep_copy_list",
-      "line": 903,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sf_ipvar.c",
-      "procedure": "_sfvar_deep_copy_list",
-      "line": 905,
-      "exp": ""
-   }
-},
- {
-   "id": 148,
-   "subject": "snort",
-   "bug_id": "memory-leak-34",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sf_ipvar.c",
-      "procedure": "_sfvar_deep_copy_list",
-      "line": 903,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sf_ipvar.c",
-      "procedure": "_sfvar_deep_copy_list",
-      "line": 910,
-      "exp": ""
-   }
-},
- {
-   "id": 149,
-   "subject": "snort",
-   "bug_id": "memory-leak-35",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddPortObject",
-      "line": 576,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddPortObject",
-      "line": 578,
-      "exp": ""
-   }
-},
- {
-   "id": 150,
-   "subject": "snort",
-   "bug_id": "memory-leak-36",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddPort",
-      "line": 798,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddPort",
-      "line": 810,
-      "exp": ""
-   }
-},
- {
-   "id": 151,
-   "subject": "snort",
-   "bug_id": "memory-leak-37",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddRange",
-      "line": 820,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddRange",
-      "line": 832,
-      "exp": ""
-   }
-},
- {
-   "id": 152,
-   "subject": "snort",
-   "bug_id": "memory-leak-38",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAppend",
-      "line": 1471,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAppend",
-      "line": 1478,
-      "exp": ""
-   }
-},
- {
-   "id": 153,
-   "subject": "snort",
-   "bug_id": "memory-leak-39",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAppendPortObject",
-      "line": 1493,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAppendPortObject",
-      "line": 1497,
-      "exp": ""
-   }
-},
- {
-   "id": 154,
-   "subject": "snort",
    "bug_id": "memory-leak-3",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_flowbits.c",
       "procedure": "processFlowbits",
       "line": 566,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/detection-plugins/sp_flowbits.c",
       "procedure": "processFlowbits",
       "line": 568,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 155,
+   "id": 125,
    "subject": "snort",
-   "bug_id": "memory-leak-40",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObject2AppendPortObject",
-      "line": 1512,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObject2AppendPortObject",
-      "line": 1516,
-      "exp": ""
-   }
-},
- {
-   "id": 156,
-   "subject": "snort",
-   "bug_id": "memory-leak-41",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObject2AppendPortObject2",
-      "line": 1538,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObject2AppendPortObject2",
-      "line": 1543,
-      "exp": ""
-   }
-},
- {
-   "id": 157,
-   "subject": "snort",
-   "bug_id": "memory-leak-42",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddRule",
-      "line": 1737,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/sfutil/sfportobject.c",
-      "procedure": "PortObjectAddRule",
-      "line": 1745,
-      "exp": ""
-   }
-},
- {
-   "id": 158,
-   "subject": "snort",
-   "bug_id": "memory-leak-43",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/snort.c",
-      "procedure": "PQ_Single",
-      "line": 984,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/snort.c",
-      "procedure": "PQ_Single",
-      "line": 989,
-      "exp": ""
-   }
-},
- {
-   "id": 159,
-   "subject": "snort",
    "bug_id": "memory-leak-4",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_flowbits.c",
       "procedure": "processFlowbits",
       "line": 566,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/detection-plugins/sp_flowbits.c",
       "procedure": "processFlowbits",
       "line": 585,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 160,
+   "id": 126,
    "subject": "snort",
-   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
    "source": {
       "src-file": "src/dynamic-plugins/sf_dynamic_plugins.c",
       "procedure": "InitDynamicEngines",
       "line": 1378,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/dynamic-plugins/sf_dynamic_plugins.c",
       "procedure": "InitDynamicEngines",
       "line": 1428,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 161,
+   "id": 127,
    "subject": "snort",
-   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
    "source": {
       "src-file": "src/dynamic-plugins/sp_preprocopt.c",
       "procedure": "RegisterPreprocessorRuleOption",
       "line": 141,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/dynamic-plugins/sp_preprocopt.c",
       "procedure": "RegisterPreprocessorRuleOption",
       "line": 150,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 162,
+   "id": 128,
    "subject": "snort",
-   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/detector_plugins/detector_sip.c",
       "procedure": "sipUaFinalize",
       "line": 398,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/dynamic-preprocessors/appid/detector_plugins/detector_sip.c",
       "procedure": "sipUaFinalize",
       "line": 406,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 163,
+   "id": 129,
    "subject": "snort",
-   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-8",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_dcerpc.c",
       "procedure": "dcerpc_tcp_validate",
       "line": 108,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_dcerpc.c",
       "procedure": "dcerpc_tcp_validate",
       "line": 140,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 164,
+   "id": 130,
    "subject": "snort",
-   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-9",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_dcerpc.c",
       "procedure": "dcerpc_udp_validate",
       "line": 162,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_dcerpc.c",
       "procedure": "dcerpc_udp_validate",
       "line": 194,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 131,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-10",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
+      "procedure": "direct_connect_validate",
+      "line": 136,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
+      "procedure": "direct_connect_validate",
+      "line": 147,
+      "exp": null
+   }
+},
+ {
+   "id": 132,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-11",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
+      "procedure": "direct_connect_validate",
+      "line": 136,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
+      "procedure": "direct_connect_validate",
+      "line": 149,
+      "exp": null
+   }
+},
+ {
+   "id": 133,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-12",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
+      "procedure": "telnet_validate",
+      "line": 123,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
+      "procedure": "telnet_validate",
+      "line": 133,
+      "exp": null
+   }
+},
+ {
+   "id": 134,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-13",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
+      "procedure": "telnet_validate",
+      "line": 123,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
+      "procedure": "telnet_validate",
+      "line": 137,
+      "exp": null
+   }
+},
+ {
+   "id": 135,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-14",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
+      "procedure": "telnet_validate",
+      "line": 123,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
+      "procedure": "telnet_validate",
+      "line": 139,
+      "exp": null
+   }
+},
+ {
+   "id": 136,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-15",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_cl.c",
+      "procedure": "DCE2_ClInsertActTracker",
+      "line": 447,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_cl.c",
+      "procedure": "DCE2_ClInsertActTracker",
+      "line": 472,
+      "exp": null
+   }
+},
+ {
+   "id": 137,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-16",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_config.c",
+      "procedure": "DCE2_ServerConfigure",
+      "line": 1386,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_config.c",
+      "procedure": "DCE2_ServerConfigure",
+      "line": 1449,
+      "exp": null
+   }
+},
+ {
+   "id": 138,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-17",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/ftptelnet/spp_ftptelnet.c",
+      "procedure": "_FtpTelnetReload",
+      "line": 535,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/ftptelnet/spp_ftptelnet.c",
+      "procedure": "_FtpTelnetReload",
+      "line": 554,
+      "exp": null
+   }
+},
+ {
+   "id": 139,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-18",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
+      "procedure": "SDFInit",
+      "line": 170,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
+      "procedure": "SDFInit",
+      "line": 171,
+      "exp": null
+   }
+},
+ {
+   "id": 140,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-19",
+   "source": {
+      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
+      "procedure": "SDFReload",
+      "line": 896,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
+      "procedure": "SDFReload",
+      "line": 897,
+      "exp": null
+   }
+},
+ {
+   "id": 141,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-20",
+   "source": {
+      "src-file": "src/event_wrapper.c",
+      "procedure": "GenerateSnortEventRtn",
+      "line": 61,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/event_wrapper.c",
+      "procedure": "GenerateSnortEventRtn",
+      "line": 66,
+      "exp": null
+   }
+},
+ {
+   "id": 142,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-21",
+   "source": {
+      "src-file": "src/file-process/file_service.c",
+      "procedure": "create_file_context",
+      "line": 413,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/file-process/file_service.c",
+      "procedure": "create_file_context",
+      "line": 413,
+      "exp": null
+   }
+},
+ {
+   "id": 143,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-22",
+   "source": {
+      "src-file": "src/file-process/libs/file_identifier.c",
+      "procedure": "sort_magics",
+      "line": 220,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/file-process/libs/file_identifier.c",
+      "procedure": "sort_magics",
+      "line": 220,
+      "exp": null
+   }
+},
+ {
+   "id": 144,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-23",
+   "source": {
+      "src-file": "src/fpcreate.c",
+      "procedure": "ServiceMapAddOtnRaw",
+      "line": 379,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/fpcreate.c",
+      "procedure": "ServiceMapAddOtnRaw",
+      "line": 379,
+      "exp": null
+   }
+},
+ {
+   "id": 145,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-24",
+   "source": {
+      "src-file": "src/fpcreate.c",
+      "procedure": "ServiceMapAddOtnRaw",
+      "line": 364,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/fpcreate.c",
+      "procedure": "ServiceMapAddOtnRaw",
+      "line": 379,
+      "exp": null
+   }
+},
+ {
+   "id": 146,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-25",
+   "source": {
+      "src-file": "src/fpcreate.c",
+      "procedure": "DynamicFpContentsToPmdList",
+      "line": 1146,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/fpcreate.c",
+      "procedure": "DynamicFpContentsToPmdList",
+      "line": 1155,
+      "exp": null
+   }
+},
+ {
+   "id": 147,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-26",
+   "source": {
+      "src-file": "src/fpdetect.c",
+      "procedure": "CreateOtnForPolicy",
+      "line": 1739,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/fpdetect.c",
+      "procedure": "CreateOtnForPolicy",
+      "line": 1752,
+      "exp": null
+   }
+},
+ {
+   "id": 148,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-27",
+   "source": {
+      "src-file": "src/fpdetect.c",
+      "procedure": "GetOtnForPolicy",
+      "line": 1793,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/fpdetect.c",
+      "procedure": "GetOtnForPolicy",
+      "line": 1795,
+      "exp": null
+   }
+},
+ {
+   "id": 149,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-28",
+   "source": {
+      "src-file": "src/preprocessors/Stream6/snort_stream_tcp.c",
+      "procedure": "registerPortForReassembly",
+      "line": 11924,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/preprocessors/Stream6/snort_stream_tcp.c",
+      "procedure": "registerPortForReassembly",
+      "line": 11927,
+      "exp": null
+   }
+},
+ {
+   "id": 150,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-29",
+   "source": {
+      "src-file": "src/sfutil/ipobj.c",
+      "procedure": "ipset_add",
+      "line": 123,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/ipobj.c",
+      "procedure": "ipset_add",
+      "line": 130,
+      "exp": null
+   }
+},
+ {
+   "id": 151,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-30",
+   "source": {
+      "src-file": "src/sfutil/ipobj.c",
+      "procedure": "ipset_add",
+      "line": 123,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/ipobj.c",
+      "procedure": "ipset_add",
+      "line": 131,
+      "exp": null
+   }
+},
+ {
+   "id": 152,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-31",
+   "source": {
+      "src-file": "src/sfutil/ipobj.c",
+      "procedure": "portset_add",
+      "line": 224,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/ipobj.c",
+      "procedure": "portset_add",
+      "line": 230,
+      "exp": null
+   }
+},
+ {
+   "id": 153,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-32",
+   "source": {
+      "src-file": "src/sfutil/sfPolicy.c",
+      "procedure": "sfNetworkAddBinding",
+      "line": 417,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfPolicy.c",
+      "procedure": "sfNetworkAddBinding",
+      "line": 440,
+      "exp": null
+   }
+},
+ {
+   "id": 154,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-33",
+   "source": {
+      "src-file": "src/sfutil/sf_ipvar.c",
+      "procedure": "_sfvar_deep_copy_list",
+      "line": 903,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sf_ipvar.c",
+      "procedure": "_sfvar_deep_copy_list",
+      "line": 905,
+      "exp": null
+   }
+},
+ {
+   "id": 155,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-34",
+   "source": {
+      "src-file": "src/sfutil/sf_ipvar.c",
+      "procedure": "_sfvar_deep_copy_list",
+      "line": 903,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sf_ipvar.c",
+      "procedure": "_sfvar_deep_copy_list",
+      "line": 910,
+      "exp": null
+   }
+},
+ {
+   "id": 156,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-35",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddPortObject",
+      "line": 576,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddPortObject",
+      "line": 578,
+      "exp": null
+   }
+},
+ {
+   "id": 157,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-36",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddPort",
+      "line": 798,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddPort",
+      "line": 810,
+      "exp": null
+   }
+},
+ {
+   "id": 158,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-37",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddRange",
+      "line": 820,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddRange",
+      "line": 832,
+      "exp": null
+   }
+},
+ {
+   "id": 159,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-38",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAppend",
+      "line": 1471,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAppend",
+      "line": 1478,
+      "exp": null
+   }
+},
+ {
+   "id": 160,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-39",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAppendPortObject",
+      "line": 1493,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAppendPortObject",
+      "line": 1497,
+      "exp": null
+   }
+},
+ {
+   "id": 161,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-40",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObject2AppendPortObject",
+      "line": 1512,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObject2AppendPortObject",
+      "line": 1516,
+      "exp": null
+   }
+},
+ {
+   "id": 162,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-41",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObject2AppendPortObject2",
+      "line": 1538,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObject2AppendPortObject2",
+      "line": 1543,
+      "exp": null
+   }
+},
+ {
+   "id": 163,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-42",
+   "source": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddRule",
+      "line": 1737,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/sfutil/sfportobject.c",
+      "procedure": "PortObjectAddRule",
+      "line": 1745,
+      "exp": null
+   }
+},
+ {
+   "id": 164,
+   "subject": "snort",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-43",
+   "source": {
+      "src-file": "src/snort.c",
+      "procedure": "PQ_Single",
+      "line": 984,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "src/snort.c",
+      "procedure": "PQ_Single",
+      "line": 989,
+      "exp": null
    }
 },
  {
    "id": 165,
    "subject": "swoole",
-   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-1",
    "source": {
-      "src-file": "",
-      "procedure": "swAioBase_write",
-      "line": 304,
-      "exp": ""
+      "src-file": "src/core/array.c",
+      "procedure": "swArray_alloc",
+      "line": 130,
+      "exp": null
    },
    "sink": {
-      "src-file": "",
-      "procedure": "swAioBase_write",
-      "line": 320,
-      "exp": ""
+      "src-file": "src/core/array.c",
+      "procedure": "swArray_alloc",
+      "line": 130,
+      "exp": null
    }
 },
  {
    "id": 166,
    "subject": "swoole",
-   "bug_id": "memory-leak-11",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "swAio_dns_lookup",
-      "line": 331,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "swAio_dns_lookup",
-      "line": 347,
-      "exp": ""
-   }
-},
- {
-   "id": 167,
-   "subject": "swoole",
-   "bug_id": "memory-leak-12",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "swAioBase_read",
-      "line": 358,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "swAioBase_read",
-      "line": 375,
-      "exp": ""
-   }
-},
- {
-   "id": 168,
-   "subject": "swoole",
-   "bug_id": "memory-leak-13",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "swAioLinux_write",
-      "line": 165,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "swAioLinux_write",
-      "line": 191,
-      "exp": ""
-   }
-},
- {
-   "id": 169,
-   "subject": "swoole",
-   "bug_id": "memory-leak-14",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "swPipeBase_create",
-      "line": 32,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "swPipeBase_create",
-      "line": 41,
-      "exp": ""
-   }
-},
- {
-   "id": 170,
-   "subject": "swoole",
-   "bug_id": "memory-leak-15",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "swPipeUnsock_create",
-      "line": 54,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "swPipeUnsock_create",
-      "line": 64,
-      "exp": ""
-   }
-},
- {
-   "id": 171,
-   "subject": "swoole",
-   "bug_id": "memory-leak-16",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "swReactorPoll_create",
-      "line": 42,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "swReactorPoll_create",
-      "line": 53,
-      "exp": ""
-   }
-},
- {
-   "id": 172,
-   "subject": "swoole",
-   "bug_id": "memory-leak-17",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "swReactorPoll_create",
-      "line": 50,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "swReactorPoll_create",
-      "line": 59,
-      "exp": ""
-   }
-},
- {
-   "id": 173,
-   "subject": "swoole",
-   "bug_id": "memory-leak-18",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "",
-      "procedure": "zim_swoole_buffer___construct",
-      "line": 124,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "",
-      "procedure": "zim_swoole_buffer___construct",
-      "line": 131,
-      "exp": ""
-   }
-},
- {
-   "id": 174,
-   "subject": "swoole",
-   "bug_id": "memory-leak-1",
-   "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "src/core/array.c",
-      "procedure": "swArray_alloc",
-      "line": 130,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "src/core/array.c",
-      "procedure": "swArray_alloc",
-      "line": 130,
-      "exp": ""
-   }
-},
- {
-   "id": 175,
-   "subject": "swoole",
    "bug_id": "memory-leak-2",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
       "procedure": "swHashMap_new",
       "line": 101,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swHashMap_new",
       "line": 117,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 176,
+   "id": 167,
    "subject": "swoole",
-   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
    "source": {
       "src-file": "",
       "procedure": "swHashMap_add",
       "line": 142,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swHashMap_add",
       "line": 153,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 177,
+   "id": 168,
    "subject": "swoole",
-   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-4",
    "source": {
       "src-file": "",
       "procedure": "swShareMemory_sysv_create",
       "line": 155,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swShareMemory_sysv_create",
       "line": 157,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 178,
+   "id": 169,
    "subject": "swoole",
-   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
    "source": {
       "src-file": "",
       "procedure": "swTableColumn_add",
       "line": 85,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swTableColumn_add",
       "line": 89,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 179,
+   "id": 170,
    "subject": "swoole",
-   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
    "source": {
       "src-file": "",
       "procedure": "swTableColumn_add",
       "line": 86,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swTableColumn_add",
       "line": 125,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 180,
+   "id": 171,
    "subject": "swoole",
-   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
    "source": {
       "src-file": "",
       "procedure": "swTableColumn_add",
       "line": 85,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swTableColumn_add",
       "line": 131,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 181,
+   "id": 172,
    "subject": "swoole",
-   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-8",
    "source": {
       "src-file": "",
       "procedure": "swTimer_add",
       "line": 115,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swTimer_add",
       "line": 125,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 182,
+   "id": 173,
    "subject": "swoole",
-   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-9",
    "source": {
       "src-file": "",
       "procedure": "swAioBase_init",
       "line": 166,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "",
       "procedure": "swAioBase_init",
       "line": 179,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 174,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-10",
+   "source": {
+      "src-file": "",
+      "procedure": "swAioBase_write",
+      "line": 304,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swAioBase_write",
+      "line": 320,
+      "exp": null
+   }
+},
+ {
+   "id": 175,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-11",
+   "source": {
+      "src-file": "",
+      "procedure": "swAio_dns_lookup",
+      "line": 331,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swAio_dns_lookup",
+      "line": 347,
+      "exp": null
+   }
+},
+ {
+   "id": 176,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-12",
+   "source": {
+      "src-file": "",
+      "procedure": "swAioBase_read",
+      "line": 358,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swAioBase_read",
+      "line": 375,
+      "exp": null
+   }
+},
+ {
+   "id": 177,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-13",
+   "source": {
+      "src-file": "",
+      "procedure": "swAioLinux_write",
+      "line": 165,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swAioLinux_write",
+      "line": 191,
+      "exp": null
+   }
+},
+ {
+   "id": 178,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-14",
+   "source": {
+      "src-file": "",
+      "procedure": "swPipeBase_create",
+      "line": 32,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swPipeBase_create",
+      "line": 41,
+      "exp": null
+   }
+},
+ {
+   "id": 179,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-15",
+   "source": {
+      "src-file": "",
+      "procedure": "swPipeUnsock_create",
+      "line": 54,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swPipeUnsock_create",
+      "line": 64,
+      "exp": null
+   }
+},
+ {
+   "id": 180,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-16",
+   "source": {
+      "src-file": "",
+      "procedure": "swReactorPoll_create",
+      "line": 42,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swReactorPoll_create",
+      "line": 53,
+      "exp": null
+   }
+},
+ {
+   "id": 181,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-17",
+   "source": {
+      "src-file": "",
+      "procedure": "swReactorPoll_create",
+      "line": 50,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "swReactorPoll_create",
+      "line": 59,
+      "exp": null
+   }
+},
+ {
+   "id": 182,
+   "subject": "swoole",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-18",
+   "source": {
+      "src-file": "",
+      "procedure": "zim_swoole_buffer___construct",
+      "line": 124,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "",
+      "procedure": "zim_swoole_buffer___construct",
+      "line": 131,
+      "exp": null
    }
 },
  {
    "id": 183,
    "subject": "WavPack",
-   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-1",
    "source": {
       "src-file": "cli/wvtag.c",
       "procedure": "do_tag_extractions",
       "line": 941,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "cli/wvtag.c",
       "procedure": "do_tag_extractions",
       "line": 942,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 184,
    "subject": "WavPack",
-   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-2",
    "source": {
       "src-file": "cli/wvunpack.c",
       "procedure": "do_tag_extractions",
       "line": 1831,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "cli/wvunpack.c",
       "procedure": "do_tag_extractions",
       "line": 1832,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 185,
    "subject": "WavPack",
-   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
    "source": {
       "src-file": "src/open_legacy.c",
       "procedure": "WavpackOpenFileInputEx",
       "line": 102,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "src/open_legacy.c",
       "procedure": "WavpackOpenFileInputEx",
       "line": 113,
-      "exp": ""
+      "exp": null
    }
 },
  {
    "id": 186,
    "subject": "x264",
-   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
-   "source": {
-      "src-file": "input/timecode.c",
-      "procedure": "open_file",
-      "line": 347,
-      "exp": ""
-   },
-   "sink": {
-      "src-file": "input/timecode.c",
-      "procedure": "open_file",
-      "line": 360,
-      "exp": ""
-   }
-},
- {
-   "id": 187,
-   "subject": "x264",
    "bug_id": "memory-leak-1",
-   "bug_type": "Memory Leak",
    "source": {
       "src-file": "filters/video/cache.c",
       "procedure": "init",
       "line": 59,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "filters/video/cache.c",
       "procedure": "init",
       "line": 66,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 188,
+   "id": 187,
    "subject": "x264",
-   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-2",
    "source": {
       "src-file": "filters/video/cache.c",
       "procedure": "init",
       "line": 59,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "filters/video/cache.c",
       "procedure": "init",
       "line": 72,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 189,
+   "id": 188,
    "subject": "x264",
-   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-3",
    "source": {
       "src-file": "filters/video/crop.c",
       "procedure": "init",
       "line": 68,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "filters/video/crop.c",
       "procedure": "init",
       "line": 81,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 190,
+   "id": 189,
    "subject": "x264",
-   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-4",
    "source": {
       "src-file": "filters/video/crop.c",
       "procedure": "init",
       "line": 68,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "filters/video/crop.c",
       "procedure": "init",
       "line": 85,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 191,
+   "id": 190,
    "subject": "x264",
-   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-5",
    "source": {
       "src-file": "filters/video/select_every.c",
       "procedure": "init",
       "line": 60,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "filters/video/select_every.c",
       "procedure": "init",
       "line": 79,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 192,
+   "id": 191,
    "subject": "x264",
-   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-6",
    "source": {
       "src-file": "filters/video/source.c",
       "procedure": "init",
       "line": 42,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "filters/video/source.c",
       "procedure": "init",
       "line": 48,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 193,
+   "id": 192,
    "subject": "x264",
-   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-7",
    "source": {
       "src-file": "input/avs.c",
       "procedure": "open_file",
       "line": 265,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "input/avs.c",
       "procedure": "open_file",
       "line": 268,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 194,
+   "id": 193,
    "subject": "x264",
-   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-8",
    "source": {
       "src-file": "input/thread.c",
       "procedure": "open_file",
       "line": 53,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "input/thread.c",
       "procedure": "open_file",
       "line": 54,
-      "exp": ""
+      "exp": null
    }
 },
  {
-   "id": 195,
+   "id": 194,
    "subject": "x264",
-   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-9",
    "source": {
       "src-file": "input/thread.c",
       "procedure": "open_file",
       "line": 53,
-      "exp": ""
+      "exp": null
    },
    "sink": {
       "src-file": "input/thread.c",
       "procedure": "open_file",
       "line": 61,
-      "exp": ""
+      "exp": null
+   }
+},
+ {
+   "id": 195,
+   "subject": "x264",
+   "bug_type": "Memory Leak",
+   "bug_id": "memory-leak-10",
+   "source": {
+      "src-file": "input/timecode.c",
+      "procedure": "open_file",
+      "line": 347,
+      "exp": null
+   },
+   "sink": {
+      "src-file": "input/timecode.c",
+      "procedure": "open_file",
+      "line": 360,
+      "exp": null
    }
 }
 ]
