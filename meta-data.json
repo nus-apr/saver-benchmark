@@ -2,7 +2,7 @@
  {
    "id": 1,
    "subject": "flex",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/buf.c",
@@ -20,7 +20,7 @@
  {
    "id": 2,
    "subject": "flex",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/buf.c",
@@ -38,7 +38,7 @@
  {
    "id": 3,
    "subject": "flex",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dfa.c",
@@ -56,7 +56,7 @@
  {
    "id": 4,
    "subject": "flex",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/misc.c",
@@ -74,7 +74,7 @@
  {
    "id": 5,
    "subject": "flex",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sym.c",
@@ -92,7 +92,7 @@
  {
    "id": 6,
    "subject": "flex",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sym.c",
@@ -110,7 +110,7 @@
  {
    "id": 7,
    "subject": "flex",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sym.c",
@@ -128,7 +128,7 @@
  {
    "id": 8,
    "subject": "grub",
-   "bug_id": "double-1",
+   "bug_id": "double-free-1",
    "bug_type": "Double Free",
    "source": {
       "src-file": "grub-core/script/lexer.c",
@@ -146,7 +146,7 @@
  {
    "id": 9,
    "subject": "grub",
-   "bug_id": "double-2",
+   "bug_id": "double-free-2",
    "bug_type": "Double Free",
    "source": {
       "src-file": "util/probe.c",
@@ -164,7 +164,7 @@
  {
    "id": 10,
    "subject": "grub",
-   "bug_id": "double-3",
+   "bug_id": "double-free-3",
    "bug_type": "Double Free",
    "source": {
       "src-file": "grub-core/io/lzopio.c",
@@ -182,7 +182,7 @@
  {
    "id": 11,
    "subject": "grub",
-   "bug_id": "double-4",
+   "bug_id": "double-free-4",
    "bug_type": "Double Free",
    "source": {
       "src-file": "net/tcp.c",
@@ -200,7 +200,7 @@
  {
    "id": 12,
    "subject": "grub",
-   "bug_id": "double-5",
+   "bug_id": "double-free-5",
    "bug_type": "Double Free",
    "source": {
       "src-file": "grub-core/disk/diskfilter.c",
@@ -218,7 +218,7 @@
  {
    "id": 13,
    "subject": "grub",
-   "bug_id": "double-6",
+   "bug_id": "double-free-6",
    "bug_type": "Double Free",
    "source": {
       "src-file": "grub-core/kern/file.c",
@@ -236,7 +236,7 @@
  {
    "id": 14,
    "subject": "grub",
-   "bug_id": "use-after-10",
+   "bug_id": "use-after-free-10",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "grub-core/osdep/devmapper/getroot.c",
@@ -254,7 +254,7 @@
  {
    "id": 15,
    "subject": "grub",
-   "bug_id": "use-after-1",
+   "bug_id": "use-after-free-1",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "normal/crypto.c",
@@ -272,7 +272,7 @@
  {
    "id": 16,
    "subject": "grub",
-   "bug_id": "use-after-2",
+   "bug_id": "use-after-free-2",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "bus/usb/usbtrans.c",
@@ -290,7 +290,7 @@
  {
    "id": 17,
    "subject": "grub",
-   "bug_id": "use-after-3",
+   "bug_id": "use-after-free-3",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "bus/usb/usbtrans.c",
@@ -308,7 +308,7 @@
  {
    "id": 18,
    "subject": "grub",
-   "bug_id": "use-after-4",
+   "bug_id": "use-after-free-4",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "loader/i386/xnu.c",
@@ -326,7 +326,7 @@
  {
    "id": 19,
    "subject": "grub",
-   "bug_id": "use-after-5",
+   "bug_id": "use-after-free-5",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "disk/scsi.c",
@@ -344,7 +344,7 @@
  {
    "id": 20,
    "subject": "grub",
-   "bug_id": "use-after-6",
+   "bug_id": "use-after-free-6",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "commands/search.c",
@@ -362,7 +362,7 @@
  {
    "id": 21,
    "subject": "grub",
-   "bug_id": "use-after-7",
+   "bug_id": "use-after-free-7",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "grub-core/disk/luks.c",
@@ -380,7 +380,7 @@
  {
    "id": 22,
    "subject": "grub",
-   "bug_id": "use-after-8",
+   "bug_id": "use-after-free-8",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "util/grub-mkimage.c",
@@ -398,7 +398,7 @@
  {
    "id": 23,
    "subject": "grub",
-   "bug_id": "use-after-9",
+   "bug_id": "use-after-free-9",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "gettext/gettext.c",
@@ -416,7 +416,7 @@
  {
    "id": 24,
    "subject": "inetutils",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "ftpd.c",
@@ -434,7 +434,7 @@
  {
    "id": 25,
    "subject": "inetutils",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "ftpd.c",
@@ -452,7 +452,7 @@
  {
    "id": 26,
    "subject": "inetutils",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "ftpd.c",
@@ -470,7 +470,7 @@
  {
    "id": 27,
    "subject": "inetutils",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "libinetutils/argcv.c",
@@ -488,7 +488,7 @@
  {
    "id": 28,
    "subject": "inetutils",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "libinetutils/argcv.c",
@@ -506,7 +506,7 @@
  {
    "id": 29,
    "subject": "inetutils",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/hostname.c",
@@ -524,7 +524,7 @@
  {
    "id": 30,
    "subject": "inetutils",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/hostname.c",
@@ -542,7 +542,7 @@
  {
    "id": 31,
    "subject": "inetutils",
-   "bug_id": "leak-8",
+   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "rshd.c",
@@ -560,7 +560,7 @@
  {
    "id": 32,
    "subject": "inetutils",
-   "bug_id": "leak-9",
+   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "talkd/acl.c",
@@ -578,7 +578,7 @@
  {
    "id": 33,
    "subject": "lxc",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -596,7 +596,7 @@
  {
    "id": 34,
    "subject": "lxc",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -614,7 +614,7 @@
  {
    "id": 35,
    "subject": "lxc",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -632,7 +632,7 @@
  {
    "id": 36,
    "subject": "lxc",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -650,7 +650,7 @@
  {
    "id": 37,
    "subject": "lxc",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -668,7 +668,7 @@
  {
    "id": 38,
    "subject": "lxc",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -686,7 +686,7 @@
  {
    "id": 39,
    "subject": "lxc",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -704,7 +704,7 @@
  {
    "id": 40,
    "subject": "lxc",
-   "bug_id": "leak-8",
+   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/lxc/lxccontainer.c",
@@ -722,7 +722,7 @@
  {
    "id": 41,
    "subject": "lxc",
-   "bug_id": "double-1",
+   "bug_id": "double-free-1",
    "bug_type": "Double Free",
    "source": {
       "src-file": "src/lxc/cgmanager.c",
@@ -740,7 +740,7 @@
  {
    "id": 42,
    "subject": "lxc",
-   "bug_id": "double-2",
+   "bug_id": "double-free-2",
    "bug_type": "Double Free",
    "source": {
       "src-file": "src/lxc/attach.c",
@@ -758,7 +758,7 @@
  {
    "id": 43,
    "subject": "lxc",
-   "bug_id": "double-3",
+   "bug_id": "double-free-3",
    "bug_type": "Double Free",
    "source": {
       "src-file": "src/lxc/attach.c",
@@ -776,7 +776,7 @@
  {
    "id": 44,
    "subject": "lxc",
-   "bug_id": "double-4",
+   "bug_id": "double-free-4",
    "bug_type": "Double Free",
    "source": {
       "src-file": "src/lxc/conf.c",
@@ -794,7 +794,7 @@
  {
    "id": 45,
    "subject": "lxc",
-   "bug_id": "double-5",
+   "bug_id": "double-free-5",
    "bug_type": "Double Free",
    "source": {
       "src-file": "conf.c",
@@ -812,7 +812,7 @@
  {
    "id": 46,
    "subject": "lxc",
-   "bug_id": "double-6",
+   "bug_id": "double-free-6",
    "bug_type": "Double Free",
    "source": {
       "src-file": "src/lxc/lxc_copy.c",
@@ -830,7 +830,7 @@
  {
    "id": 47,
    "subject": "lxc",
-   "bug_id": "use-after-1",
+   "bug_id": "use-after-free-1",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "tools/lxc_execute.c",
@@ -848,7 +848,7 @@
  {
    "id": 48,
    "subject": "lxc",
-   "bug_id": "use-after-2",
+   "bug_id": "use-after-free-2",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "lxccontainer.c",
@@ -866,7 +866,7 @@
  {
    "id": 49,
    "subject": "lxc",
-   "bug_id": "use-after-3",
+   "bug_id": "use-after-free-3",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "src/lxc/storage/overlay.c",
@@ -884,7 +884,7 @@
  {
    "id": 50,
    "subject": "lxc",
-   "bug_id": "use-after-4",
+   "bug_id": "use-after-free-4",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "src/lxc/storage/overlay.c",
@@ -902,7 +902,7 @@
  {
    "id": 51,
    "subject": "lxc",
-   "bug_id": "use-after-5",
+   "bug_id": "use-after-free-5",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "lxccontainer.c",
@@ -920,7 +920,7 @@
  {
    "id": 52,
    "subject": "lxc",
-   "bug_id": "use-after-6",
+   "bug_id": "use-after-free-6",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "src/lxc/conf.c",
@@ -938,7 +938,7 @@
  {
    "id": 53,
    "subject": "lxc",
-   "bug_id": "use-after-7",
+   "bug_id": "use-after-free-7",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "src/lxc/cgfs.c",
@@ -956,7 +956,7 @@
  {
    "id": 54,
    "subject": "p11-kit",
-   "bug_id": "leak-10",
+   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -974,7 +974,7 @@
  {
    "id": 55,
    "subject": "p11-kit",
-   "bug_id": "leak-11",
+   "bug_id": "memory-leak-11",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -992,7 +992,7 @@
  {
    "id": 56,
    "subject": "p11-kit",
-   "bug_id": "leak-12",
+   "bug_id": "memory-leak-12",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -1010,7 +1010,7 @@
  {
    "id": 57,
    "subject": "p11-kit",
-   "bug_id": "leak-13",
+   "bug_id": "memory-leak-13",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -1028,7 +1028,7 @@
  {
    "id": 58,
    "subject": "p11-kit",
-   "bug_id": "leak-14",
+   "bug_id": "memory-leak-14",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -1046,7 +1046,7 @@
  {
    "id": 59,
    "subject": "p11-kit",
-   "bug_id": "leak-15",
+   "bug_id": "memory-leak-15",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/pin.c",
@@ -1064,7 +1064,7 @@
  {
    "id": 60,
    "subject": "p11-kit",
-   "bug_id": "leak-16",
+   "bug_id": "memory-leak-16",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/pin.c",
@@ -1082,7 +1082,7 @@
  {
    "id": 61,
    "subject": "p11-kit",
-   "bug_id": "leak-17",
+   "bug_id": "memory-leak-17",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/pin.c",
@@ -1100,7 +1100,7 @@
  {
    "id": 62,
    "subject": "p11-kit",
-   "bug_id": "leak-18",
+   "bug_id": "memory-leak-18",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/proxy.c",
@@ -1118,7 +1118,7 @@
  {
    "id": 63,
    "subject": "p11-kit",
-   "bug_id": "leak-19",
+   "bug_id": "memory-leak-19",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/proxy.c",
@@ -1136,7 +1136,7 @@
  {
    "id": 64,
    "subject": "p11-kit",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "common/constants.c",
@@ -1154,7 +1154,7 @@
  {
    "id": 65,
    "subject": "p11-kit",
-   "bug_id": "leak-20",
+   "bug_id": "memory-leak-20",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/proxy.c",
@@ -1172,7 +1172,7 @@
  {
    "id": 66,
    "subject": "p11-kit",
-   "bug_id": "leak-21",
+   "bug_id": "memory-leak-21",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/rpc-message.c",
@@ -1190,7 +1190,7 @@
  {
    "id": 67,
    "subject": "p11-kit",
-   "bug_id": "leak-22",
+   "bug_id": "memory-leak-22",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/rpc-transport.c",
@@ -1208,7 +1208,7 @@
  {
    "id": 68,
    "subject": "p11-kit",
-   "bug_id": "leak-23",
+   "bug_id": "memory-leak-23",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/rpc-transport.c",
@@ -1226,7 +1226,7 @@
  {
    "id": 69,
    "subject": "p11-kit",
-   "bug_id": "leak-24",
+   "bug_id": "memory-leak-24",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/uri.c",
@@ -1244,7 +1244,7 @@
  {
    "id": 70,
    "subject": "p11-kit",
-   "bug_id": "leak-25",
+   "bug_id": "memory-leak-25",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/asn1.c",
@@ -1262,7 +1262,7 @@
  {
    "id": 71,
    "subject": "p11-kit",
-   "bug_id": "leak-26",
+   "bug_id": "memory-leak-26",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/asn1.c",
@@ -1280,7 +1280,7 @@
  {
    "id": 72,
    "subject": "p11-kit",
-   "bug_id": "leak-27",
+   "bug_id": "memory-leak-27",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/asn1.c",
@@ -1298,7 +1298,7 @@
  {
    "id": 73,
    "subject": "p11-kit",
-   "bug_id": "leak-28",
+   "bug_id": "memory-leak-28",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/asn1.c",
@@ -1316,7 +1316,7 @@
  {
    "id": 74,
    "subject": "p11-kit",
-   "bug_id": "leak-29",
+   "bug_id": "memory-leak-29",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/asn1.c",
@@ -1334,7 +1334,7 @@
  {
    "id": 75,
    "subject": "p11-kit",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "common/constants.c",
@@ -1352,7 +1352,7 @@
  {
    "id": 76,
    "subject": "p11-kit",
-   "bug_id": "leak-30",
+   "bug_id": "memory-leak-30",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/dump.c",
@@ -1370,7 +1370,7 @@
  {
    "id": 77,
    "subject": "p11-kit",
-   "bug_id": "leak-31",
+   "bug_id": "memory-leak-31",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/extract-openssl.c",
@@ -1388,7 +1388,7 @@
  {
    "id": 78,
    "subject": "p11-kit",
-   "bug_id": "leak-32",
+   "bug_id": "memory-leak-32",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/index.c",
@@ -1406,7 +1406,7 @@
  {
    "id": 79,
    "subject": "p11-kit",
-   "bug_id": "leak-33",
+   "bug_id": "memory-leak-33",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/index.c",
@@ -1424,7 +1424,7 @@
  {
    "id": 80,
    "subject": "p11-kit",
-   "bug_id": "leak-34",
+   "bug_id": "memory-leak-34",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/index.c",
@@ -1442,7 +1442,7 @@
  {
    "id": 81,
    "subject": "p11-kit",
-   "bug_id": "leak-35",
+   "bug_id": "memory-leak-35",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/index.c",
@@ -1460,7 +1460,7 @@
  {
    "id": 82,
    "subject": "p11-kit",
-   "bug_id": "leak-36",
+   "bug_id": "memory-leak-36",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/index.c",
@@ -1478,7 +1478,7 @@
  {
    "id": 83,
    "subject": "p11-kit",
-   "bug_id": "leak-37",
+   "bug_id": "memory-leak-37",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/parser.c",
@@ -1496,7 +1496,7 @@
  {
    "id": 84,
    "subject": "p11-kit",
-   "bug_id": "leak-38",
+   "bug_id": "memory-leak-38",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/parser.c",
@@ -1514,7 +1514,7 @@
  {
    "id": 85,
    "subject": "p11-kit",
-   "bug_id": "leak-39",
+   "bug_id": "memory-leak-39",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/save.c",
@@ -1532,7 +1532,7 @@
  {
    "id": 86,
    "subject": "p11-kit",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/conf.c",
@@ -1550,7 +1550,7 @@
  {
    "id": 87,
    "subject": "p11-kit",
-   "bug_id": "leak-40",
+   "bug_id": "memory-leak-40",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/token.c",
@@ -1568,7 +1568,7 @@
  {
    "id": 88,
    "subject": "p11-kit",
-   "bug_id": "leak-41",
+   "bug_id": "memory-leak-41",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/token.c",
@@ -1586,7 +1586,7 @@
  {
    "id": 89,
    "subject": "p11-kit",
-   "bug_id": "leak-42",
+   "bug_id": "memory-leak-42",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "trust/token.c",
@@ -1604,7 +1604,7 @@
  {
    "id": 90,
    "subject": "p11-kit",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/filter.c",
@@ -1622,7 +1622,7 @@
  {
    "id": 91,
    "subject": "p11-kit",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/filter.c",
@@ -1640,7 +1640,7 @@
  {
    "id": 92,
    "subject": "p11-kit",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/iter.c",
@@ -1658,7 +1658,7 @@
  {
    "id": 93,
    "subject": "p11-kit",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -1676,7 +1676,7 @@
  {
    "id": 94,
    "subject": "p11-kit",
-   "bug_id": "leak-8",
+   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -1694,7 +1694,7 @@
  {
    "id": 95,
    "subject": "p11-kit",
-   "bug_id": "leak-9",
+   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -1712,7 +1712,7 @@
  {
    "id": 96,
    "subject": "p11-kit",
-   "bug_id": "double-1",
+   "bug_id": "double-free-1",
    "bug_type": "Double Free",
    "source": {
       "src-file": "trust/extract.c",
@@ -1730,7 +1730,7 @@
  {
    "id": 97,
    "subject": "p11-kit",
-   "bug_id": "double-2",
+   "bug_id": "double-free-2",
    "bug_type": "Double Free",
    "source": {
       "src-file": "p11-kit/server.c",
@@ -1748,7 +1748,7 @@
  {
    "id": 98,
    "subject": "p11-kit",
-   "bug_id": "use-after-1",
+   "bug_id": "use-after-free-1",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "p11-kit/server.c",
@@ -1766,7 +1766,7 @@
  {
    "id": 99,
    "subject": "p11-kit",
-   "bug_id": "use-after-2",
+   "bug_id": "use-after-free-2",
    "bug_type": "Use After Free",
    "source": {
       "src-file": "p11-kit/modules.c",
@@ -1784,7 +1784,7 @@
  {
    "id": 100,
    "subject": "rappel",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "pipe.c",
@@ -1802,7 +1802,7 @@
  {
    "id": 101,
    "subject": "recutils",
-   "bug_id": "leak-10",
+   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/rec-fex.c",
@@ -1820,7 +1820,7 @@
  {
    "id": 102,
    "subject": "recutils",
-   "bug_id": "leak-11",
+   "bug_id": "memory-leak-11",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/rec-fex.c",
@@ -1838,7 +1838,7 @@
  {
    "id": 103,
    "subject": "recutils",
-   "bug_id": "leak-12",
+   "bug_id": "memory-leak-12",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/rec-int.c",
@@ -1856,7 +1856,7 @@
  {
    "id": 104,
    "subject": "recutils",
-   "bug_id": "leak-13",
+   "bug_id": "memory-leak-13",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/rec-rset.c",
@@ -1874,7 +1874,7 @@
  {
    "id": 105,
    "subject": "recutils",
-   "bug_id": "leak-14",
+   "bug_id": "memory-leak-14",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/rec-rset.c",
@@ -1892,7 +1892,7 @@
  {
    "id": 106,
    "subject": "recutils",
-   "bug_id": "leak-15",
+   "bug_id": "memory-leak-15",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "utils/csv2rec.c",
@@ -1910,7 +1910,7 @@
  {
    "id": 107,
    "subject": "recutils",
-   "bug_id": "leak-16",
+   "bug_id": "memory-leak-16",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "utils/csv2rec.c",
@@ -1928,7 +1928,7 @@
  {
    "id": 108,
    "subject": "recutils",
-   "bug_id": "leak-17",
+   "bug_id": "memory-leak-17",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "utils/recfmt.c",
@@ -1946,7 +1946,7 @@
  {
    "id": 109,
    "subject": "recutils",
-   "bug_id": "leak-18",
+   "bug_id": "memory-leak-18",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "utils/recutl.c",
@@ -1964,7 +1964,7 @@
  {
    "id": 110,
    "subject": "recutils",
-   "bug_id": "leak-19",
+   "bug_id": "memory-leak-19",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "utils/recutl.c",
@@ -1982,7 +1982,7 @@
  {
    "id": 111,
    "subject": "recutils",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/malloca.c",
@@ -2000,7 +2000,7 @@
  {
    "id": 112,
    "subject": "recutils",
-   "bug_id": "leak-20",
+   "bug_id": "memory-leak-20",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "utils/recutl.c",
@@ -2018,7 +2018,7 @@
  {
    "id": 113,
    "subject": "recutils",
-   "bug_id": "leak-21",
+   "bug_id": "memory-leak-21",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "utils/recutl.c",
@@ -2036,7 +2036,7 @@
  {
    "id": 114,
    "subject": "recutils",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/regexec.c",
@@ -2054,7 +2054,7 @@
  {
    "id": 115,
    "subject": "recutils",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/regexec.c",
@@ -2072,7 +2072,7 @@
  {
    "id": 116,
    "subject": "recutils",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/regexec.c",
@@ -2090,7 +2090,7 @@
  {
    "id": 117,
    "subject": "recutils",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/regexec.c",
@@ -2108,7 +2108,7 @@
  {
    "id": 118,
    "subject": "recutils",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/regexec.c",
@@ -2126,7 +2126,7 @@
  {
    "id": 119,
    "subject": "recutils",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "lib/regexec.c",
@@ -2144,7 +2144,7 @@
  {
    "id": 120,
    "subject": "recutils",
-   "bug_id": "leak-8",
+   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/rec-crypt.c",
@@ -2162,7 +2162,7 @@
  {
    "id": 121,
    "subject": "recutils",
-   "bug_id": "leak-9",
+   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/rec-db.c",
@@ -2180,7 +2180,7 @@
  {
    "id": 122,
    "subject": "snort",
-   "bug_id": "leak-10",
+   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
@@ -2198,7 +2198,7 @@
  {
    "id": 123,
    "subject": "snort",
-   "bug_id": "leak-11",
+   "bug_id": "memory-leak-11",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_direct_connect.c",
@@ -2216,7 +2216,7 @@
  {
    "id": 124,
    "subject": "snort",
-   "bug_id": "leak-12",
+   "bug_id": "memory-leak-12",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
@@ -2234,7 +2234,7 @@
  {
    "id": 125,
    "subject": "snort",
-   "bug_id": "leak-13",
+   "bug_id": "memory-leak-13",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
@@ -2252,7 +2252,7 @@
  {
    "id": 126,
    "subject": "snort",
-   "bug_id": "leak-14",
+   "bug_id": "memory-leak-14",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_telnet.c",
@@ -2270,7 +2270,7 @@
  {
    "id": 127,
    "subject": "snort",
-   "bug_id": "leak-15",
+   "bug_id": "memory-leak-15",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_cl.c",
@@ -2288,7 +2288,7 @@
  {
    "id": 128,
    "subject": "snort",
-   "bug_id": "leak-16",
+   "bug_id": "memory-leak-16",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/dcerpc2/dce2_config.c",
@@ -2306,7 +2306,7 @@
  {
    "id": 129,
    "subject": "snort",
-   "bug_id": "leak-17",
+   "bug_id": "memory-leak-17",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/ftptelnet/spp_ftptelnet.c",
@@ -2324,7 +2324,7 @@
  {
    "id": 130,
    "subject": "snort",
-   "bug_id": "leak-18",
+   "bug_id": "memory-leak-18",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
@@ -2342,7 +2342,7 @@
  {
    "id": 131,
    "subject": "snort",
-   "bug_id": "leak-19",
+   "bug_id": "memory-leak-19",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/sdf/spp_sdf.c",
@@ -2360,7 +2360,7 @@
  {
    "id": 132,
    "subject": "snort",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_appid.c",
@@ -2378,7 +2378,7 @@
  {
    "id": 133,
    "subject": "snort",
-   "bug_id": "leak-20",
+   "bug_id": "memory-leak-20",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/event_wrapper.c",
@@ -2396,7 +2396,7 @@
  {
    "id": 134,
    "subject": "snort",
-   "bug_id": "leak-21",
+   "bug_id": "memory-leak-21",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/file-process/file_service.c",
@@ -2414,7 +2414,7 @@
  {
    "id": 135,
    "subject": "snort",
-   "bug_id": "leak-22",
+   "bug_id": "memory-leak-22",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/file-process/libs/file_identifier.c",
@@ -2432,7 +2432,7 @@
  {
    "id": 136,
    "subject": "snort",
-   "bug_id": "leak-23",
+   "bug_id": "memory-leak-23",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/fpcreate.c",
@@ -2450,7 +2450,7 @@
  {
    "id": 137,
    "subject": "snort",
-   "bug_id": "leak-24",
+   "bug_id": "memory-leak-24",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/fpcreate.c",
@@ -2468,7 +2468,7 @@
  {
    "id": 138,
    "subject": "snort",
-   "bug_id": "leak-25",
+   "bug_id": "memory-leak-25",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/fpcreate.c",
@@ -2486,7 +2486,7 @@
  {
    "id": 139,
    "subject": "snort",
-   "bug_id": "leak-26",
+   "bug_id": "memory-leak-26",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/fpdetect.c",
@@ -2504,7 +2504,7 @@
  {
    "id": 140,
    "subject": "snort",
-   "bug_id": "leak-27",
+   "bug_id": "memory-leak-27",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/fpdetect.c",
@@ -2522,7 +2522,7 @@
  {
    "id": 141,
    "subject": "snort",
-   "bug_id": "leak-28",
+   "bug_id": "memory-leak-28",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/preprocessors/Stream6/snort_stream_tcp.c",
@@ -2540,7 +2540,7 @@
  {
    "id": 142,
    "subject": "snort",
-   "bug_id": "leak-29",
+   "bug_id": "memory-leak-29",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/ipobj.c",
@@ -2558,7 +2558,7 @@
  {
    "id": 143,
    "subject": "snort",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_file_type.c",
@@ -2576,7 +2576,7 @@
  {
    "id": 144,
    "subject": "snort",
-   "bug_id": "leak-30",
+   "bug_id": "memory-leak-30",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/ipobj.c",
@@ -2594,7 +2594,7 @@
  {
    "id": 145,
    "subject": "snort",
-   "bug_id": "leak-31",
+   "bug_id": "memory-leak-31",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/ipobj.c",
@@ -2612,7 +2612,7 @@
  {
    "id": 146,
    "subject": "snort",
-   "bug_id": "leak-32",
+   "bug_id": "memory-leak-32",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfPolicy.c",
@@ -2630,7 +2630,7 @@
  {
    "id": 147,
    "subject": "snort",
-   "bug_id": "leak-33",
+   "bug_id": "memory-leak-33",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sf_ipvar.c",
@@ -2648,7 +2648,7 @@
  {
    "id": 148,
    "subject": "snort",
-   "bug_id": "leak-34",
+   "bug_id": "memory-leak-34",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sf_ipvar.c",
@@ -2666,7 +2666,7 @@
  {
    "id": 149,
    "subject": "snort",
-   "bug_id": "leak-35",
+   "bug_id": "memory-leak-35",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2684,7 +2684,7 @@
  {
    "id": 150,
    "subject": "snort",
-   "bug_id": "leak-36",
+   "bug_id": "memory-leak-36",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2702,7 +2702,7 @@
  {
    "id": 151,
    "subject": "snort",
-   "bug_id": "leak-37",
+   "bug_id": "memory-leak-37",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2720,7 +2720,7 @@
  {
    "id": 152,
    "subject": "snort",
-   "bug_id": "leak-38",
+   "bug_id": "memory-leak-38",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2738,7 +2738,7 @@
  {
    "id": 153,
    "subject": "snort",
-   "bug_id": "leak-39",
+   "bug_id": "memory-leak-39",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2756,7 +2756,7 @@
  {
    "id": 154,
    "subject": "snort",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_flowbits.c",
@@ -2774,7 +2774,7 @@
  {
    "id": 155,
    "subject": "snort",
-   "bug_id": "leak-40",
+   "bug_id": "memory-leak-40",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2792,7 +2792,7 @@
  {
    "id": 156,
    "subject": "snort",
-   "bug_id": "leak-41",
+   "bug_id": "memory-leak-41",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2810,7 +2810,7 @@
  {
    "id": 157,
    "subject": "snort",
-   "bug_id": "leak-42",
+   "bug_id": "memory-leak-42",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/sfutil/sfportobject.c",
@@ -2828,7 +2828,7 @@
  {
    "id": 158,
    "subject": "snort",
-   "bug_id": "leak-43",
+   "bug_id": "memory-leak-43",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/snort.c",
@@ -2846,7 +2846,7 @@
  {
    "id": 159,
    "subject": "snort",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/detection-plugins/sp_flowbits.c",
@@ -2864,7 +2864,7 @@
  {
    "id": 160,
    "subject": "snort",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-plugins/sf_dynamic_plugins.c",
@@ -2882,7 +2882,7 @@
  {
    "id": 161,
    "subject": "snort",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-plugins/sp_preprocopt.c",
@@ -2900,7 +2900,7 @@
  {
    "id": 162,
    "subject": "snort",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/detector_plugins/detector_sip.c",
@@ -2918,7 +2918,7 @@
  {
    "id": 163,
    "subject": "snort",
-   "bug_id": "leak-8",
+   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_dcerpc.c",
@@ -2936,7 +2936,7 @@
  {
    "id": 164,
    "subject": "snort",
-   "bug_id": "leak-9",
+   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/dynamic-preprocessors/appid/service_plugins/service_dcerpc.c",
@@ -2954,7 +2954,7 @@
  {
    "id": 165,
    "subject": "swoole",
-   "bug_id": "leak-10",
+   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -2972,7 +2972,7 @@
  {
    "id": 166,
    "subject": "swoole",
-   "bug_id": "leak-11",
+   "bug_id": "memory-leak-11",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -2990,7 +2990,7 @@
  {
    "id": 167,
    "subject": "swoole",
-   "bug_id": "leak-12",
+   "bug_id": "memory-leak-12",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3008,7 +3008,7 @@
  {
    "id": 168,
    "subject": "swoole",
-   "bug_id": "leak-13",
+   "bug_id": "memory-leak-13",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3026,7 +3026,7 @@
  {
    "id": 169,
    "subject": "swoole",
-   "bug_id": "leak-14",
+   "bug_id": "memory-leak-14",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3044,7 +3044,7 @@
  {
    "id": 170,
    "subject": "swoole",
-   "bug_id": "leak-15",
+   "bug_id": "memory-leak-15",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3062,7 +3062,7 @@
  {
    "id": 171,
    "subject": "swoole",
-   "bug_id": "leak-16",
+   "bug_id": "memory-leak-16",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3080,7 +3080,7 @@
  {
    "id": 172,
    "subject": "swoole",
-   "bug_id": "leak-17",
+   "bug_id": "memory-leak-17",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3098,7 +3098,7 @@
  {
    "id": 173,
    "subject": "swoole",
-   "bug_id": "leak-18",
+   "bug_id": "memory-leak-18",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3116,7 +3116,7 @@
  {
    "id": 174,
    "subject": "swoole",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/core/array.c",
@@ -3134,7 +3134,7 @@
  {
    "id": 175,
    "subject": "swoole",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3152,7 +3152,7 @@
  {
    "id": 176,
    "subject": "swoole",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3170,7 +3170,7 @@
  {
    "id": 177,
    "subject": "swoole",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3188,7 +3188,7 @@
  {
    "id": 178,
    "subject": "swoole",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3206,7 +3206,7 @@
  {
    "id": 179,
    "subject": "swoole",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3224,7 +3224,7 @@
  {
    "id": 180,
    "subject": "swoole",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3242,7 +3242,7 @@
  {
    "id": 181,
    "subject": "swoole",
-   "bug_id": "leak-8",
+   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3260,7 +3260,7 @@
  {
    "id": 182,
    "subject": "swoole",
-   "bug_id": "leak-9",
+   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "",
@@ -3278,7 +3278,7 @@
  {
    "id": 183,
    "subject": "WavPack",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "cli/wvtag.c",
@@ -3296,7 +3296,7 @@
  {
    "id": 184,
    "subject": "WavPack",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "cli/wvunpack.c",
@@ -3314,7 +3314,7 @@
  {
    "id": 185,
    "subject": "WavPack",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "src/open_legacy.c",
@@ -3332,7 +3332,7 @@
  {
    "id": 186,
    "subject": "x264",
-   "bug_id": "leak-10",
+   "bug_id": "memory-leak-10",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "input/timecode.c",
@@ -3350,7 +3350,7 @@
  {
    "id": 187,
    "subject": "x264",
-   "bug_id": "leak-1",
+   "bug_id": "memory-leak-1",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "filters/video/cache.c",
@@ -3368,7 +3368,7 @@
  {
    "id": 188,
    "subject": "x264",
-   "bug_id": "leak-2",
+   "bug_id": "memory-leak-2",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "filters/video/cache.c",
@@ -3386,7 +3386,7 @@
  {
    "id": 189,
    "subject": "x264",
-   "bug_id": "leak-3",
+   "bug_id": "memory-leak-3",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "filters/video/crop.c",
@@ -3404,7 +3404,7 @@
  {
    "id": 190,
    "subject": "x264",
-   "bug_id": "leak-4",
+   "bug_id": "memory-leak-4",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "filters/video/crop.c",
@@ -3422,7 +3422,7 @@
  {
    "id": 191,
    "subject": "x264",
-   "bug_id": "leak-5",
+   "bug_id": "memory-leak-5",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "filters/video/select_every.c",
@@ -3440,7 +3440,7 @@
  {
    "id": 192,
    "subject": "x264",
-   "bug_id": "leak-6",
+   "bug_id": "memory-leak-6",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "filters/video/source.c",
@@ -3458,7 +3458,7 @@
  {
    "id": 193,
    "subject": "x264",
-   "bug_id": "leak-7",
+   "bug_id": "memory-leak-7",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "input/avs.c",
@@ -3476,7 +3476,7 @@
  {
    "id": 194,
    "subject": "x264",
-   "bug_id": "leak-8",
+   "bug_id": "memory-leak-8",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "input/thread.c",
@@ -3494,7 +3494,7 @@
  {
    "id": 195,
    "subject": "x264",
-   "bug_id": "leak-9",
+   "bug_id": "memory-leak-9",
    "bug_type": "Memory Leak",
    "source": {
       "src-file": "input/thread.c",
