@@ -130,6 +130,7 @@
    "subject": "grub",
    "bug_type": "Double Free",
    "bug_id": "double-free-1",
+   "compile_programs": ["libgrubmods.a"],
    "source": {
       "src-file": "grub-core/script/lexer.c",
       "procedure": "grub_script_lexer_init",
@@ -147,6 +148,7 @@
    "id": 9,
    "subject": "grub",
    "bug_type": "Double Free",
+   "compile_programs": ["grub-probe"],
    "bug_id": "double-free-2",
    "source": {
       "src-file": "util/probe.c",
@@ -165,6 +167,7 @@
    "id": 10,
    "subject": "grub",
    "bug_type": "Double Free",
+   "compile_programs": ["libgrubmods.a"],
    "bug_id": "double-free-3",
    "source": {
       "src-file": "grub-core/io/lzopio.c",
@@ -183,6 +186,8 @@
    "id": 11,
    "subject": "grub",
    "bug_type": "Double Free",
+   "compile_programs": ["net.module"],
+   "build_dir": "grub-core",
    "bug_id": "double-free-4",
    "source": {
       "src-file": "net/tcp.c",
@@ -201,6 +206,7 @@
    "id": 12,
    "subject": "grub",
    "bug_type": "Double Free",
+   "compile_programs": ["libgrubkern.a"],
    "bug_id": "double-free-5",
    "source": {
       "src-file": "grub-core/disk/diskfilter.c",
@@ -219,6 +225,7 @@
    "id": 13,
    "subject": "grub",
    "bug_type": "Double Free",
+   "compile_programs": ["libgrubkern.a"],
    "bug_id": "double-free-6",
    "source": {
       "src-file": "grub-core/kern/file.c",
@@ -237,6 +244,8 @@
    "id": 14,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["normal.module"],
+   "build_dir": "grub-core",
    "bug_id": "use-after-free-1",
    "source": {
       "src-file": "normal/crypto.c",
@@ -255,6 +264,8 @@
    "id": 15,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["pci.module"],
+   "build_dir": "grub-core",
    "bug_id": "use-after-free-2",
    "source": {
       "src-file": "bus/usb/usbtrans.c",
@@ -273,6 +284,8 @@
    "id": 16,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["usb.module"],
+   "build_dir": "grub-core",
    "bug_id": "use-after-free-3",
    "source": {
       "src-file": "bus/usb/usbtrans.c",
@@ -291,6 +304,8 @@
    "id": 17,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["xnu.module"],
+   "build_dir": "grub-core",
    "bug_id": "use-after-free-4",
    "source": {
       "src-file": "loader/i386/xnu.c",
@@ -309,6 +324,8 @@
    "id": 18,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["scsi.module"],
+   "build_dir": "grub-core",
    "bug_id": "use-after-free-5",
    "source": {
       "src-file": "disk/scsi.c",
@@ -327,6 +344,8 @@
    "id": 19,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["search_label.module"],
+   "build_dir": "grub-core",
    "bug_id": "use-after-free-6",
    "source": {
       "src-file": "commands/search.c",
@@ -345,6 +364,7 @@
    "id": 20,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["libgrubkern.a"],
    "bug_id": "use-after-free-7",
    "source": {
       "src-file": "grub-core/disk/luks.c",
@@ -363,6 +383,7 @@
    "id": 21,
    "subject": "grub",
    "bug_type": "Use After Free",
+    "compile_programs": ["mkimage_SAVER"],
    "bug_id": "use-after-free-8",
    "source": {
       "src-file": "util/grub-mkimage.c",
@@ -381,6 +402,8 @@
    "id": 22,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["kernel.exec", "gettext.modul"],
+   "build_dir": "grub-core",
    "bug_id": "use-after-free-9",
    "source": {
       "src-file": "gettext/gettext.c",
@@ -399,6 +422,7 @@
    "id": 23,
    "subject": "grub",
    "bug_type": "Use After Free",
+   "compile_programs": ["libgrubkern.a"],
    "bug_id": "use-after-free-10",
    "source": {
       "src-file": "grub-core/osdep/devmapper/getroot.c",
@@ -651,6 +675,8 @@
    "id": 37,
    "subject": "lxc",
    "bug_type": "Double Free",
+   "compile_programs": ["lxc-start"],
+   "build_dir": "src/lxc",
    "bug_id": "double-free-5",
    "source": {
       "src-file": "conf.c",
@@ -831,7 +857,9 @@
    "id": 47,
    "subject": "lxc",
    "bug_type": "Use After Free",
+   "compile_programs": ["lxc-execute"],
    "bug_id": "use-after-free-1",
+   "build_dir": "src/lxc",
    "source": {
       "src-file": "tools/lxc_execute.c",
       "procedure": "main",
@@ -850,6 +878,7 @@
    "subject": "lxc",
    "bug_type": "Use After Free",
    "bug_id": "use-after-free-2",
+   "build_dir": "src/lxc",
    "source": {
       "src-file": "lxccontainer.c",
       "procedure": "prepend_lxc_header",
@@ -903,6 +932,8 @@
    "id": 51,
    "subject": "lxc",
    "bug_type": "Use After Free",
+   "compile_programs": ["liblxc.la"],
+   "build_dir": "src/lxc",
    "bug_id": "use-after-free-5",
    "source": {
       "src-file": "lxccontainer.c",
