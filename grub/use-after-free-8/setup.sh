@@ -20,5 +20,6 @@ git checkout $bug_commit_id
 git format-patch -1 $fix_commit_id
 cp *.patch $dir_name/dev-patch/fix.patch
 
-sed -i '277i \\ \\ \\ \\ \\ \\ free (arguments.output);' util/grub-mkimage.c
+sed -i '277i free (arguments.output);' util/grub-mkimage.c
+sed -ie "\\$a mkimage_SAVER:\\n\\t$\\(MAKE\\) -C grub-core\/gnulib && $\\(MAKE\\) grub-mkimage" Makefile
 

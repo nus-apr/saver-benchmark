@@ -20,5 +20,5 @@ git checkout $bug_commit_id
 git format-patch -1 $fix_commit_id
 cp *.patch $dir_name/dev-patch/fix.patch
 
-sed -i '68i \\ \\ free ((char *) orig_path);' util/probe.c
+sed -i '68i free((char *) orig_path);' util/probe.c
 
