@@ -10,7 +10,7 @@ cd $dir_name
 mkdir dev-patch
 
 project_url=https://github.com/coreos/grub
-fix_commit_id=2fb8c2
+fix_commit_id=2fb8cd2
 bug_commit_id=5298187
 
 cd $dir_name
