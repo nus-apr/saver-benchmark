@@ -9,9 +9,9 @@ mkdir -p $dir_name
 cd $dir_name
 mkdir dev-patch
 
-project_url=https://github.com/coreos/grub
-fix_commit_id=6e3c515
-bug_commit_id=e8f0782
+project_url=https://github.com/lxc/lxc
+fix_commit_id=9ebb03a
+bug_commit_id=2312f31
 
 cd $dir_name
 git clone $project_url src
@@ -20,7 +20,8 @@ git checkout $bug_commit_id
 git format-patch -1 $fix_commit_id
 cp *.patch $dir_name/dev-patch/fix.patch
 
-
-sed -ie '120d' grub-core/osdep/devmapper/getroot.c
-sed -i '118i dm_tree_free (tree);' grub-core/osdep/devmapper/getroot.c
-
+sed -i 's/SCMP_ACT_ALLOW/0, SCMP_ACT_ALLOW/g' src/lxc/seccomp.c
+sed -i 's/SCMP_FLT/0, SCMP_FLT/g' src/lxc/seccomp.c
+sed -i 's/load()/load(0)/g' src/lxc/seccomp.c
+vim src/lxc/lxc_init.c -c '55,59mo51 | wq'
+sed -i 's/-Wall -Werror//g' configure.ac
