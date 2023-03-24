@@ -24,6 +24,3 @@ find . -type f -name '*.c' | xargs sed -i 's/WEXITSTATUS//g'
 find . -type f -name '*.c' | xargs sed -i 's/WIFEXITED//g'
 find . -type f -name '*.c' | xargs sed -i 's/WIFSIGNALED//g'
 find . -type f -name '*.c' | xargs sed -i 's/WTERMSIG//g'
-
-cd src/lxc
-make clean
