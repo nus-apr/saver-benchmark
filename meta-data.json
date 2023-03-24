@@ -1086,7 +1086,11 @@
       "procedure": "main",
       "line": 679,
       "exp": ""
-   }
+   },
+   "build_dir": "",
+   "compile_programs": [
+      "p11-kit-server"
+   ]
 },
  {
    "id": 57,
@@ -1860,7 +1864,11 @@
       "procedure": "main",
       "line": 680,
       "exp": ""
-   }
+   },
+   "build_dir": "",
+   "compile_programs": [
+      "p11-kit-server"
+   ]
 },
  {
    "id": 100,
