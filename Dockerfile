@@ -78,7 +78,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install --yes --no-install-recommends
     nasm \
     openssl \
     php \
-    php7.4-dev \
+    php-dev \
     pkg-config \
     psmisc \
     python3 \
