@@ -208,9 +208,9 @@
       "line": 921,
       "exp": ""
    },
-   "build_dir": "grub-core",
+   "build_dir": "",
    "compile_programs": [
-      "net.module"
+      "leak_obj"
    ]
 },
  {
