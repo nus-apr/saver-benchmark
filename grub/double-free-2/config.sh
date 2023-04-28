@@ -9,3 +9,6 @@ cd $dir_name/src
 ./autogen.sh
 ./configure
 
+echo "libgnu:" >> Makefile
+echo -e "\t\$(MAKE) -C grub-core/gnulib" >> Makefile
+echo "leak_obj: libgnu util/grub_probe-grub-probe.o" >> Makefile

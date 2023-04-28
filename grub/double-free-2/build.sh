@@ -8,6 +8,4 @@ cd $dir_name/src
 
 
 make clean
-cd grub-core/gnulib
-make CFLAGS="-Wno-error" -j4
-
+make leak_obj -j4
