@@ -20,8 +20,3 @@ git checkout $bug_commit_id
 git format-patch -1 $fix_commit_id
 cp *.patch $dir_name/dev-patch/fix.patch
 
-
-./autogen.sh
-
-echo "leak_obj:" >> Makefile
-echo -e "\t\$(MAKE) -C grub-core net.module" >> Makefile
