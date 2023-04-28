@@ -9,3 +9,5 @@ cd $dir_name/src
 ./autogen.sh
 ./configure
 
+echo "leak_obj: widthspec.h grub_script.tab.h " >> Makefile
+echo -e "\t\$(MAKE) -C grub-core normal.module" >> Makefile
