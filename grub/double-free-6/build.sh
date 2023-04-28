@@ -7,4 +7,4 @@ dir_name=$1/$benchmark_name/$project_name/$bug_id
 cd $dir_name/src
 
 
-make CFLAGS="-Wno-error" -j4
+make CFLAGS="-Wno-error" -j4 libgrubkern.a
