@@ -9,5 +9,5 @@ cd $dir_name/src
 
 make clean
 cd grub-core/gnulib
-make -j4
+make CFLAGS="-Wno-error" -j4
 

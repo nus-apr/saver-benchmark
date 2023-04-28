@@ -10,3 +10,4 @@ make widthspec.h
 make grub_script.tab.h
 cd grub-core
 make clean
+make CFLAGS="-Wno-error" -j4
