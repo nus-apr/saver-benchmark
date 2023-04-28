@@ -22,3 +22,8 @@ cp *.patch $dir_name/dev-patch/fix.patch
 
 sed -i '68i free((char *) orig_path);' util/probe.c
 
+./autogen.sh
+
+echo "libgnu:" >> Makefile
+echo -e "\t\$(MAKE) -C grub-core/gnulib" >> Makefile
+echo "leak_obj: libgnu util/grub_probe-grub-probe.o" >> Makefile
