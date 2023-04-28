@@ -166,7 +166,7 @@
    },
    "build_dir": "",
    "compile_programs": [
-      "grub-probe"
+      "leak_obj"
    ]
 },
  {
